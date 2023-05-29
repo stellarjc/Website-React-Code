@@ -1,0 +1,56 @@
+/*footer section */
+a{
+    font-family: 'montserrat','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+}
+.box h3{
+    font-family: 'montserrat','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.footer{
+    padding-left: 40px;
+    padding-bottom: 40px;
+    background:#000000;
+}
+
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap:1.5rem;
+}
+
+.footer .box-container .box h3{
+    font-size: 2rem;
+    padding:1rem 0;
+    color:#fff;
+}
+
+.footer .box-container .box a{
+    display: block;
+    font-size: 1rem;
+    padding:0.5rem 0;
+    color:#eee;
+}
+
+.footer .box-container .box a i{
+    padding-right: .5rem;
+    color:var(--main-color);
+}
+
+.footer .box-container .box a:hover i{
+    padding-right: 1.5rem;
+    color:#fff;
+}
+
+.footer .credit{
+    text-align: center;
+    border-top: .1rem solid #222;
+    color:#fff;
+    padding:2rem;
+    padding-top: 2.5rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+
+.footer .credit span{
+    color:var(--main-color);
+}
