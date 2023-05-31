@@ -51,17 +51,23 @@
     justify-content: space-around;
     flex-direction: column;
     color: aliceblue;
-    background-color: rgb(0, 0, 0);
+    background-color:transparent;
     position: absolute;
-    top: 55%;
+    top: 50%;
     left: 95%;
 }
 .home-content-nav-span{
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 500;
     font-family: "montserrat", Cochin, Georgia, Times, 'Times New Roman', serif;
-    color:rgb(226, 171, 52);
+    color:#c45252;
 }
 .home-content-nav-span:hover{
-    color:rgb(255, 255, 255);
+    color:#ffffff;
+}
+.home-content-nav-spana{
+    font-size: 40px;
+    font-weight: 500;
+    font-family: "montserrat", Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#ffffff;
 }
