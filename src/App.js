@@ -25,7 +25,7 @@ function App() {
           <Route path="/spt" element={<Tech />} />
           <Route path="/spn" element={<News />} />
         </Routes>
-      <Footer />
+      {/* <Footer /> */}
       </BrowserRouter>
     </div>
   );

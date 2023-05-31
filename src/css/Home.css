@@ -52,7 +52,7 @@
     flex-direction: column;
     color: aliceblue;
     background-color:transparent;
-    position: absolute;
+    position:fixed;
     top: 50%;
     left: 95%;
 }

@@ -5,7 +5,7 @@ function Home2(){
 
     window.addEventListener('scroll', function (e) {
         console.log(this.window.scrollY);
-        if (this.window.scrollY >80) {
+        if (this.window.scrollY >50) {
             console.log('scrolling down');
             window.location.href = '/h3';
         }
