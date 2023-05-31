@@ -8,7 +8,7 @@ function navbar() {
         </div> */}
         <div className="menu">
             <ul className="menu-list">
-                <li className="menu-list-item"><Link className="menu-list-item-a" to='/'>HOME</Link></li>
+                <li className="menu-list-item"><Link className="menu-list-item-a1" to='/'>HOME</Link></li>
                 <li className="menu-list-item"><Link className="menu-list-item-a" to='/cos'>COSMOLOGY</Link></li>
                 <li className="menu-list-item"><Link className="menu-list-item-a" to='/roc'>ROCKETRY</Link></li>
                 <li className="menu-list-item"><Link className="menu-list-item-a" to='/spt'>SPACE-TECH</Link></li>

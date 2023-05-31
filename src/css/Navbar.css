@@ -26,6 +26,7 @@
 .menu{
 }
 .menu-list{
+    padding-left: 0px;
     list-style: none;
     margin: 0px;
     display: flex;
@@ -37,6 +38,13 @@
     font-family: "Montserrat", Helvetica, sans-serif;
     font-weight: 390;
     margin-left: 25px;
+    font-size: 16px;
+}
+.menu-list-item-a1{
+    text-decoration: none;
+    color:#ffffff;
+    font-family: "Montserrat", Helvetica, sans-serif;
+    font-weight: 390;
     font-size: 16px;
 }
 .menu-list-item-a:hover{
