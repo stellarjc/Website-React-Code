@@ -1,8 +1,9 @@
 .navbar{
     background:rgb(0, 0, 0);
-    height: 70px;
+    height: 100px;
     display: flex;
     align-items: center;
+    justify-content: center;
     position: sticky;
     top: 0px;
     z-index: 4;
@@ -23,8 +24,6 @@
     font-size: 30px;
 }
 .menu{
-    position:absolute;
-    right:50px;
 }
 .menu-list{
     list-style: none;
@@ -35,10 +34,10 @@
 .menu-list-item-a{
     text-decoration: none;
     color:#ffffff;
-    font-family: 'montserrat', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Montserrat", Helvetica, sans-serif;
     font-weight: 390;
     margin-left: 25px;
-    font-size: 18px;
+    font-size: 16px;
 }
 .menu-list-item-a:hover{
     color:#c45252;

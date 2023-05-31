@@ -1,6 +1,7 @@
+import '../css/cosmology.css'
 function Cosmology() {
   return (
-    <div>
+    <div className="Cosmoogy">
       <h1>Cosmology</h1>
     </div>
   );

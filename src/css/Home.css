@@ -1,0 +1,67 @@
+.home-video{
+    left: 50%;
+    top: 65%;
+    height: 1000px;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    z-index: -1;
+    filter: brightness(30%);
+}
+.home-content{
+   text-align: center;
+   height: 500px;
+}
+.home-content-h1{
+    margin-top: 300px;
+    margin-bottom: 0px;
+    font-size: 100px;
+    font-weight: 900;
+    font-family: "montserrat", Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(236, 195, 11);
+}
+.home-content-p{
+    margin-top: 0px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "montserrat", Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(226, 171, 52);
+}
+.home-content-btn{
+    margin-top: 30px;
+    padding:20px;
+    border: 3px solid rgb(255, 255, 255);
+    background: none;
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+}
+.home-content-btn:hover{
+    background: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+}
+.home-b1{
+    height: 20px;
+    background-color: brown;
+}
+.home-content2{
+    margin-top: 500px;
+}
+.home-content-nav{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    color: aliceblue;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: 55%;
+    left: 95%;
+}
+.home-content-nav-span{
+    font-size: 30px;
+    font-weight: 500;
+    font-family: "montserrat", Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(226, 171, 52);
+}
+.home-content-nav-span:hover{
+    color:rgb(255, 255, 255);
+}
