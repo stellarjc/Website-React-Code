@@ -5,10 +5,12 @@ function Home3() {
 
     window.addEventListener('scroll', function (e) {
         console.log(this.window.scrollY);
+        if(this.window.location.href==='http://localhost:3000/h3'){
         if (this.window.scrollY >50) {
             console.log('scrolling down');
             window.location.href = '/';
         }
+    }
     });
     
     return <div className="home">
