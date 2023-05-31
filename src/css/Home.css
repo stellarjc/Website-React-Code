@@ -71,3 +71,25 @@
     font-family: "montserrat", Cochin, Georgia, Times, 'Times New Roman', serif;
     color:#ffffff;
 }
+.home-main{
+    background-color: rgb(0, 0, 0);
+    height: 1000px;
+    margin-top: 10px;
+    display: flex;
+}
+.home-main-aim-h1{
+    margin-top: 60px;
+    margin-left: 100px;
+    font-size: 50px;
+    font-weight: 500;
+    font-family: "montserrat", Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(255, 255, 255);
+}
+.home-main-aim-p{
+    margin-top: 0px;
+    margin-left: 100px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "montserrat", Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(255, 255, 255);
+}
