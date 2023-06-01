@@ -26,12 +26,10 @@ function Home2(){
            </div>
            <div className="home-main-aim">
                 <h1 className="home-main-aim-h1">MISSION</h1>
-                <p className="home-main-aim-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute 
-                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim 
-                id est laborum.</p>
+                <p className="home-main-aim-p">At Stellar JC, our mission is to inspire, educate, and unite individuals 
+                who are fascinated by the realms beyond our planet. Through engaging discussions, hands-on activities, 
+                and captivating events, we strive to deepen our understanding of the universe while nurturing a sense 
+                of wonder and reverence for the cosmic spectacle that surrounds us</p>
            </div>
            <div className="home-main-aim">
                 <h1 className="home-main-aim-h1">VISION</h1>

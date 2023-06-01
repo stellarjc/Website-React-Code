@@ -12,7 +12,7 @@ function Team() {
         {
             name: "Afnan Khazi",
             position: "Vice president",
-            image: "team/hashir.jpg",
+            image: "team/afnan.jpg",
             links: ["hashirazhaf@gmail.com", "https://www.linkedin.com/in/hashir-azhaf-898243233", "https://instagram.com/lion_heart_003?igshid=MzNlNGNkZWQ4Mg=="]
         },
         {
@@ -23,7 +23,7 @@ function Team() {
         },
         {
             name: "Avinash Reddy c",
-            position: "web, content, graphic",
+            position: "Web, Content, Graphics",
             image: "team/avinash.jpeg",
             links: ["avihanvaisri@gmail.com", "https://www.linkedin.com/in/avinash-reddy-c-857057235/", "https://twitter.com/Avinash77936013"]
         },
@@ -32,13 +32,10 @@ function Team() {
             position: "Treasurer",
             image: "team/dixit.jpg",
             links: ["https://www.linkedin.com/in/sai-dikshith-088270227"]
-        }
-    ]
-
-    const publicRelations = [
+        },
         {
-            name: "Hashir Azhaf",
-            position: "President",
+            name: "Lalitha",
+            position: "Public relations",
             image: "team/hashir.jpg",
             links: []
         }
@@ -46,16 +43,58 @@ function Team() {
 
     const content = [
         {
-            name: "Hashir Azhaf",
-            position: "President",
+            name: "Lumbini",
+            position: "Content Head",
             image: "team/hashir.jpg",
             links: []
-        }
+        },
+        {
+            name: "Amreen",
+            position: "Graphics Head",
+            image: "team/hashir.jpg",
+            links: []
+        },
+        {
+            name: "Nida Fathima",
+            position: "Content writer",
+            image: "team/nida.jpg",
+            links: ["","https://www.linkedin.com/in/syedanidafathima","https://instagram.com/nid.aaa_?igshid=NGExMmI2YTkyZg=="]
+        },
+        {
+            name: "Akash",
+            position: "Graphic designer",
+            image: "team/hashir.jpg",
+            links: []
+        },
+        {
+            name: "Hashir Azhaf",
+            position: "Content writer",
+            image: "team/hashir.jpg",
+            links: []
+        },
+        {
+            name: "Nikhil",
+            position: "Graphic designer",
+            image: "team/hashir.jpg",
+            links: []
+        },
     ]
 
     const eventManagment = [
         {
-            name: "Sai Dikshith M",
+            name: "Niranjan",
+            position: "Event Managment Head",
+            image: "team/dixit.jpg",
+            links: ["https://www.linkedin.com/in/sai-dikshith-088270227"]
+        },
+        {
+            name: "Sai Dikshith M",
+            position: "Event Managment",
+            image: "team/dixit.jpg",
+            links: ["https://www.linkedin.com/in/sai-dikshith-088270227"]
+        },
+        {
+            name: "Rujwal",
             position: "Event Managment",
             image: "team/dixit.jpg",
             links: ["https://www.linkedin.com/in/sai-dikshith-088270227"]
@@ -64,8 +103,8 @@ function Team() {
 
     const socialMedia = [
         {
-            name: "Hashir Azhaf",
-            position: "President",
+            name: "Amreen",
+            position: "Social Media Head",
             image: "team/hashir.jpg",
             links: []
         }
@@ -128,15 +167,7 @@ function Team() {
             </div>
         </div>
         <div className="team-head">
-            <h1 className="team-head-h1">Public Relations</h1>
-        </div>
-        <div className="team">
-            <div className="team-1">
-                <Card cont={publicRelations} />
-            </div>
-        </div>
-        <div className="team-head">
-            <h1 className="team-head-h1">Content</h1>
+            <h1 className="team-head-h1">Content And Graphics</h1>
         </div>
         <div className="team">
             <div className="team-1">
