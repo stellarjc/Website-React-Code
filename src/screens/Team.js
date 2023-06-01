@@ -10,22 +10,28 @@ function Team() {
             links: ["hashirazhaf@gmail.com", "https://www.linkedin.com/in/hashir-azhaf-898243233", "https://instagram.com/lion_heart_003?igshid=MzNlNGNkZWQ4Mg=="]
         },
         {
-            name: "Hashir Azhaf",
-            position: "President",
+            name: "Afnan Khazi",
+            position: "Vice president",
             image: "team/hashir.jpg",
             links: ["hashirazhaf@gmail.com", "https://www.linkedin.com/in/hashir-azhaf-898243233", "https://instagram.com/lion_heart_003?igshid=MzNlNGNkZWQ4Mg=="]
         },
         {
-            name: "Hashir Azhaf",
-            position: "President",
+            name: "Yash P Jain",
+            position: "Secretary",
             image: "team/hashir.jpg",
-            links: ["hashirazhaf@gmail.com", "https://www.linkedin.com/in/hashir-azhaf-898243233", "https://instagram.com/lion_heart_003?igshid=MzNlNGNkZWQ4Mg=="]
+            links: ["hashirazhaf@gmail.com", "https://www.linkedin.com/in/hashir-azhaf-898243233", "https://twitter.com/Avinash77936013"]
         },
         {
-            name: "Hashir Azhaf",
-            position: "President",
-            image: "team/hashir.jpg",
-            links: []
+            name: "Avinash Reddy c",
+            position: "web, content, graphic",
+            image: "team/avinash.jpeg",
+            links: ["avihanvaisri@gmail.com", "https://www.linkedin.com/in/avinash-reddy-c-857057235/", "https://twitter.com/Avinash77936013"]
+        },
+        {
+            name: "Nikitha Rathod",
+            position: "Treasurer",
+            image: "team/dixit.jpg",
+            links: ["https://www.linkedin.com/in/sai-dikshith-088270227"]
         }
     ]
 
@@ -49,11 +55,11 @@ function Team() {
 
     const eventManagment = [
         {
-            name: "Hashir Azhaf",
-            position: "President",
-            image: "team/hashir.jpg",
-            links: []
-        }
+            name: "Sai Dikshith M",
+            position: "Event Managment",
+            image: "team/dixit.jpg",
+            links: ["https://www.linkedin.com/in/sai-dikshith-088270227"]
+        },
     ]
 
     const socialMedia = [
