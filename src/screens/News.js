@@ -1,7 +1,8 @@
+import '../css/news.css'
 function News() {
     return (
       <div>
-        <h1>News</h1>
+        <h1 className="cs">COMMING SOON !</h1>
       </div>
     );
   }

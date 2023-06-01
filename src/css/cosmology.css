@@ -48,3 +48,35 @@
     color: #ffffff;
     font-family: 'Montserrat', Courier, monospace;
 }
+.cos-content2{
+    margin: 40px;
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cos-content2-p{
+    color: #ffffff;
+    font-family:'montserrat', Helvetica, sans-serif;
+    font-weight: 300;
+    text-align: left;
+}
+.cos-content2-img{
+    height: 300px;
+}
+.cos-content3{
+    margin: 40px;
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cos-content3-p{
+    color: #ffffff;
+    font-family:'montserrat', Helvetica, sans-serif;
+    font-weight: 300;
+    text-align: right;
+}
+.cos-content3-img{
+    height: 300px;
+}

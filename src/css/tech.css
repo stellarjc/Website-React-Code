@@ -48,3 +48,35 @@
     color: #ffffff;
     font-family: 'Montserrat', Courier, monospace;
 }
+.tec-content2{
+    margin: 40px;
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tec-content2-p{
+    color: #ffffff;
+    font-family:'montserrat', Helvetica, sans-serif;
+    font-weight: 300;
+    text-align: left;
+}
+.tec-content2-img{
+    height: 300px;
+}
+.tec-content3{
+    margin: 40px;
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tec-content3-p{
+    color: #ffffff;
+    font-family:'montserrat', Helvetica, sans-serif;
+    font-weight: 300;
+    text-align: right;
+}
+.tec-content3-img{
+    height: 300px;
+}
