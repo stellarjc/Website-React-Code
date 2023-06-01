@@ -12,7 +12,7 @@ function Tech() {
         </div>
         <div className='tec-content'>
           <h1 className='tec-content-main-h1'>WHAT WE DO</h1>
-          <p className='tec-content-main-p'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac purus nec<br /> diam laoreet sollicitudin.Fusce ullamcorper imperdiet turpis, non accumsan enim egestas in. </p>
+          <p className='tec-content-main-p'>Focuses on the design, development, manufacture, and operation of basic devices and systems engineered for outer space missions.<br /> It includes spacecraft command systems, space station research equipments technology, launch vehicle abort systems, communication and <br />in-space services such as weather forecasting, remote sensing, satellite navigation systems and electronics.</p>
         </div>
       </div>
       </div>

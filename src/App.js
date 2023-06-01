@@ -7,9 +7,11 @@ import Home3 from './screens/Home3';
 import Cosmology from './screens/Cosmology';
 import Rocketry from './screens/Rocketry';
 import Tech from './screens/Tech';
+import Team from './screens/Team';
 import News from './screens/News';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+
 
 function App() {
   return (
@@ -24,6 +26,7 @@ function App() {
           <Route path="/roc" element={<Rocketry />} />
           <Route path="/spt" element={<Tech />} />
           <Route path="/spn" element={<News />} />
+          <Route path="/tem" element={<Team />} />
         </Routes>
       {/* <Footer /> */}
       </BrowserRouter>

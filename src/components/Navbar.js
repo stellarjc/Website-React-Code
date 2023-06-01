@@ -13,6 +13,7 @@ function navbar() {
                 <li className="menu-list-item"><Link className="menu-list-item-a" to='/roc'>ROCKETRY</Link></li>
                 <li className="menu-list-item"><Link className="menu-list-item-a" to='/spt'>SPACE-TECH</Link></li>
                 <li className="menu-list-item"><Link className="menu-list-item-a" to='/spn'>SPACE-NEWS</Link></li>
+                <li className="menu-list-item"><Link className="menu-list-item-a" to='/tem'>TEAM</Link></li>
             </ul>
         </div>
     </div>
