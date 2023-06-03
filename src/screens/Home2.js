@@ -6,7 +6,7 @@ function Home2(){
     window.addEventListener('scroll', function (e) {
         console.log(this.window.scrollY);
         if(this.window.location.href==='http://localhost:3000/h2'){
-        if (this.window.scrollY >250) {
+        if (this.window.scrollY >350) {
             console.log('scrolling down');
             window.location.href = '/h3';
         }
@@ -30,8 +30,8 @@ function Home2(){
                 <p className="home-main-aim-p">To cultivate inspiration and curiosity in students about space exploration. And letting them experience the wonders of astronomy
 To encourage scientific discovery and investigation. And addressing the social need for science for the benefit of society
 To make a social out reach to people for spreading awareness about various astronomical phenomena and their effects on common man's life. On how its knowledge helps fighting social and environmental issues like climate change, global connectivity, global warming etc.
-4.To help students keep in pace with the recent technological advancement and promote hands on tech building experience. And developed real time engineering skills
-5.To help students seize future opportunities in the space sector And achieve pride for India and the entire world
+To help students keep in pace with the recent technological advancement and promote hands on tech building experience. And developed real time engineering skills
+To help students seize future opportunities in the space sector And achieve pride for India and the entire world
 </p>
            </div>
            <div className="home-main-aim">
