@@ -49,9 +49,9 @@ function Team() {
 
     const content = [
         {
-            name: "Lumbini",
+            name: "Lumbini AT",
             position: "Content Head",
-            image: "team/hashir.jpg",
+            image: "team/lumbini.jpg",
             links: []
         },
         {

@@ -23,7 +23,7 @@ function Cosmology() {
             <img className='cos-content2-img' src='cos2.jpg' />
       </div>
       <div className='cos-content3'>
-      <img className='cos-content3-img' src='cos2.jpg' />
+      <img className='cos-content3-img' src='cos3.jpg' />
             <p className='cos-content3-p'>Participate in interactive workshops and demonstrations where you can delve into 
             various aspects of astronomy and space science. Whether it's learning about astrophotography, understanding the 
             life cycles of stars, or constructing your own model rocket, we offer hands-on experiences that ignite curiosity 

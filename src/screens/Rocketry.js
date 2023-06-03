@@ -12,7 +12,9 @@ function Rocketry() {
         </div>
         <div className='roc-content'>
           <h1 className='roc-content-main-h1'>WHAT WE DO</h1>
-          <p className='roc-content-main-p'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac purus nec<br /> diam laoreet sollicitudin.Fusce ullamcorper imperdiet turpis, non accumsan enim egestas in. </p>
+          <p className='roc-content-main-p'>Focuses on aerospace, aerodynamics, orbital mechanics, 
+          cryogenic fuels, rocket science and dynamics, launch pad systems.
+Learn about the principles of Rocket Science, Rocket Design and Propulsion systems.</p>
         </div>
         <div className='roc-content2'>
             <p className='roc-content2-p'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br />tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,<br /> quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br /> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>

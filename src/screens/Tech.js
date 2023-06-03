@@ -20,11 +20,15 @@ function Tech() {
              We offer opportunities for members to engage in satellite making projects. From designing and assembling miniature
               satellites to programming their functions, these projects allow our members to gain practical experience in 
               aerospace engineering and contribute to the advancement of space technology.</p>
-            <img className='tec-content2-img' src='cos2.jpg' />
+            <img className='tec-content2-img' src='tec2.jpg' />
       </div>
       <div className='tec-content3'>
-      <img className='tec-content3-img' src='cos2.jpg' />
-            <p className='tec-content3-p'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br />tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,<br /> quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br /> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+      <img className='tec-content3-img' src='tec3.jpg' />
+            <p className='tec-content3-p'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+            nisi ut aliquip ex ea commodo consequat.<br /> Duis aute irure dolor in reprehenderit in voluptate velit esse 
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
+            deserunt mollit anim id est laborum</p>
       </div>
       </div>
     );
