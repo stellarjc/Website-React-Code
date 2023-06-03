@@ -34,6 +34,12 @@ function Team() {
             links: ["https://www.linkedin.com/in/sai-dikshith-088270227"]
         },
         {
+            name: "Charitha M N",
+            position: "Rocketry Head",
+            image: "team/charitha.jpg",
+            links: ["https://www.linkedin.com/in/charitha-gowda-a379ab207"]
+        },
+        {
             name: "Lalitha",
             position: "Public relations",
             image: "team/hashir.jpg",
@@ -49,10 +55,10 @@ function Team() {
             links: []
         },
         {
-            name: "Amreen",
+            name: "Amreen Ahmedi",
             position: "Graphics Head",
-            image: "team/hashir.jpg",
-            links: []
+            image: "team/amreen.png",
+            links: ["https://instagram.com/am.reeeeeeen?igshid=OGQ5ZDc2ODk2ZA==","https://www.linkedin.com/in/amreen-ahmedi-b92911273?trk=contact-info"]
         },
         {
             name: "Nida Fathima",
@@ -130,13 +136,17 @@ function Team() {
 
     const rc= [
         {
-            name: "Hashir Azhaf",
-            position: "President",
-            image: "team/hashir.jpg",
-            links: []
+            name: "Charitha M N",
+            position: "Rocketry Head",
+            image: "team/charitha.jpg",
+            links: ["https://www.linkedin.com/in/charitha-gowda-a379ab207"]
         }
     ]
-
+    const Lk=(props)=>{
+        return props.links.map((link)=>{
+            return <SocialIcon className="card-content-icons" url={link} />
+        })
+    }
     const Card = (props) => {
         return props.cont.map((person) => {
             return <div className="card">
@@ -147,9 +157,10 @@ function Team() {
                     <h1 className='card-content-h1'>{person.name}</h1>
                     <h2 className='card-content-h2'>{person.position}</h2>
                     <div className="card-links">
-                        <SocialIcon className="card-content-icons" url={person.links[0]} />
+                        <Lk links={person.links}/>
+                        {/* <SocialIcon className="card-content-icons" url={person.links[0]} />
                         <SocialIcon className="card-content-icons" url={person.links[1]} />
-                        <SocialIcon className="card-content-icons" url={person.links[2]} />
+                        <SocialIcon className="card-content-icons" url={person.links[2]} /> */}
                     </div>
                 </div>
             </div>
