@@ -6,9 +6,10 @@ function Tech() {
         <img className="tec-img" src="tec.jpg" alt="tecmology" />
         <div className="tec-tit">
           <h1 className='tec-tit-h1'>SPACE-TECH</h1>
-          <button className="tec-tit-btn" onClick={() => {
-
-          }}>EXPLORE</button>
+          <button className="tec-tit-btn" onClick={()=>{
+        if(window.location.href==='http://localhost:3000/spt'){
+          window.scrollTo(0,795);
+      }}}>EXPLORE MORE</button>
         </div>
         <div className='tec-content'>
           <h1 className='tec-content-main-h1'>WHAT WE DO</h1>

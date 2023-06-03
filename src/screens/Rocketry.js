@@ -6,9 +6,10 @@ function Rocketry() {
         <img className="roc-img" src="roc.jpg" alt="rocmology" />
         <div className="roc-tit">
           <h1 className='roc-tit-h1'>ROCKETRY</h1>
-          <button className="roc-tit-btn" onClick={() => {
-
-          }}>EXPLORE</button>
+          <button className="roc-tit-btn" onClick={()=>{
+        if(window.location.href==='http://localhost:3000/roc'){
+          window.scrollTo(0,800);
+      }}}>EXPLORE MORE</button>
         </div>
         <div className='roc-content'>
           <h1 className='roc-content-main-h1'>WHAT WE DO</h1>

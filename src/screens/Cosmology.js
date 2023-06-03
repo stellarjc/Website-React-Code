@@ -6,8 +6,9 @@ function Cosmology() {
     <div className="cos-tit">
       <h1 className='cos-tit-h1'>COSMOLOGY</h1>
       <button className="cos-tit-btn" onClick={()=>{
-
-      }}>EXPLORE</button>
+        if(window.location.href==='http://localhost:3000/cos'){
+          window.scrollTo(0,1000);
+      }}}>EXPLORE MORE</button>
     </div>
      <div className='cos-content'>
             <h1 className='cos-content-main-h1'>WHAT WE DO</h1>
