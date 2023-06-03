@@ -6,7 +6,7 @@ function Home2(){
     window.addEventListener('scroll', function (e) {
         console.log(this.window.scrollY);
         if(this.window.location.href==='http://localhost:3000/h2'){
-        if (this.window.scrollY >50) {
+        if (this.window.scrollY >250) {
             console.log('scrolling down');
             window.location.href = '/h3';
         }
@@ -17,28 +17,32 @@ function Home2(){
         <div className="home-main">
             <div className="home-main-aim">
                 <h1 className="home-main-aim-h1">AIM</h1>
-                <p className="home-main-aim-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute 
-                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim 
-                id est laborum.</p>
+                <p className="home-main-aim-p">If you are fascinated by the wonders of space, eager to explore the
+                mysteries of the cosmos, and want to connect with like-minded individuals, we invite you to join 
+                Stellar JC. Whether you are a seasoned astronomer or just starting your cosmic journey, our club 
+                offers a supportive and inclusive environment that nurtures your passion for all things space-related. 
+                Embark on a captivating odyssey through the cosmos with Stellar JC. Together, let us venture into the 
+                unknown, unravel the secrets of the universe, and foster a deeper appreciation for the vastness and 
+                beauty of space.</p>
            </div>
            <div className="home-main-aim">
                 <h1 className="home-main-aim-h1">MISSION</h1>
-                <p className="home-main-aim-p">At Stellar JC, our mission is to inspire, educate, and unite individuals 
-                who are fascinated by the realms beyond our planet. Through engaging discussions, hands-on activities, 
-                and captivating events, we strive to deepen our understanding of the universe while nurturing a sense 
-                of wonder and reverence for the cosmic spectacle that surrounds us</p>
+                <p className="home-main-aim-p">To cultivate inspiration and curiosity in students about space exploration. And letting them experience the wonders of astronomy
+To encourage scientific discovery and investigation. And addressing the social need for science for the benefit of society
+To make a social out reach to people for spreading awareness about various astronomical phenomena and their effects on common man's life. On how its knowledge helps fighting social and environmental issues like climate change, global connectivity, global warming etc.
+4.To help students keep in pace with the recent technological advancement and promote hands on tech building experience. And developed real time engineering skills
+5.To help students seize future opportunities in the space sector And achieve pride for India and the entire world
+</p>
            </div>
            <div className="home-main-aim">
                 <h1 className="home-main-aim-h1">VISION</h1>
-                <p className="home-main-aim-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute 
-                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim 
-                id est laborum.</p>
+                <p className="home-main-aim-p">A vision serves as a guiding light, illuminating the path towards a desired
+                 future. For Stellar JC, the compelling vision is crucial in shaping its purpose, direction, and impact.
+                  By envisioning a future where the wonders of the cosmos are explored, minds are inspired, and horizons
+                   are expanded, the club can chart a course towards becoming a catalyst for astronomical discovery and 
+                   education. Our vision of the club is to focus on its commitment to exploration, inspiration, and the 
+                   pursuit of knowledge of the outer space.
+</p>
            </div>
            <h1 className="home-main-h1">MISSION</h1>
            <h1 className="home-main-h1">AIM</h1>
