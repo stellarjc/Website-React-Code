@@ -11,6 +11,7 @@ import Team from './screens/Team';
 import News from './screens/News';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import Contact from './screens/Contact';
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
           <Route path="/spt" element={<Tech />} />
           <Route path="/spn" element={<News />} />
           <Route path="/tem" element={<Team />} />
+          <Route path="/con" element={<Contact />} />
         </Routes>
       {/* <Footer /> */}
       </BrowserRouter>

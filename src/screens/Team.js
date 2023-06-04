@@ -127,10 +127,10 @@ function Team() {
 
     const ast= [
         {
-            name: "Hashir Azhaf",
-            position: "President",
-            image: "team/hashir.jpg",
-            links: []
+            name: "Suhani S K",
+            position: "Cosmology lead",
+            image: "team/suhani.jpg",
+            links: ["https://instagram.com/suhani45218?igshid=MzNlNGNkZWQ4Mg==","https://www.linkedin.com/in/suhani-s-k-240659279","https://twitter.com/Suhani28941670?t=iGxNmfl6JW49qAn5HI1nZQ&s=09"]
         }
     ]
 
