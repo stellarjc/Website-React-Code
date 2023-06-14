@@ -36,14 +36,14 @@ function Navbar() {
         <Button type="primary" onClick={showDrawer}>
             .
         </Button>
-        <Drawer title="Basic Drawer" placement="right" onClose={onClose} open={open}>
-            <p><Link className="menu-list-item-a1" to='/'>HOME</Link></p>
-            <p><Link className="menu-list-item-a" to='/cos'>COSMOLOGY</Link></p>
-            <p><Link className="menu-list-item-a" to='/roc'>ROCKETRY</Link></p>
-            <p><Link className="menu-list-item-a" to='/spt'>SPACE-TECH</Link></p>
-            <p><Link className="menu-list-item-a" to='/spn'>SPACE-NEWS</Link></p>
-            <p><Link className="menu-list-item-a" to='/tem'>TEAM</Link></p>
-            <p><Link className="menu-list-item-a" to='/con'>CONTACT-US</Link></p>
+        <Drawer placement="right" onClose={onClose} open={open} width="200px">
+            <p><Link className="menu-list-item-a" to='/' onClick={()=>{setOpen(false);}}>HOME</Link></p>
+            <p><Link className="menu-list-item-a" to='/cos' onClick={()=>{setOpen(false);}}>COSMOLOGY</Link></p>
+            <p><Link className="menu-list-item-a" to='/roc' onClick={()=>{setOpen(false);}}>ROCKETRY</Link></p>
+            <p><Link className="menu-list-item-a" to='/spt' onClick={()=>{setOpen(false);}}>SPACE-TECH</Link></p>
+            <p><Link className="menu-list-item-a" to='/spn' onClick={()=>{setOpen(false);}}>SPACE-NEWS</Link></p>
+            <p><Link className="menu-list-item-a" to='/tem' onClick={()=>{setOpen(false);}}>TEAM</Link></p>
+            <p><Link className="menu-list-item-a" to='/con' onClick={()=>{setOpen(false);}}>CONTACT-US</Link></p>
         </Drawer>
         </div>
     </div>

@@ -54,18 +54,24 @@
     display:none;
 } 
 .dropdown{
-    display: none;
+    display:none;
 }
 
 
 /* mobile section */
 @media only screen and (max-device-width: 480px){
     /* css for mobile section */
+    .navbar{
+        height: 70px;
+        display:flex;
+    }
     .menu{
         display: none;
     }
     .logo{
         display: flex;
+        position: absolute;
+        left:0px;
         align-items: center;
         margin-left: 10px;
     }
@@ -79,10 +85,12 @@
     font-weight: 390;
     font-size: 20px;
     }
-    .menu-list-item-a1{
-        display: none;
+    .menu-list-item-a{
+        color:#000000;
     }
     .dropdown{
         display: block;
+        position: absolute;
+        right: 10px;
     }
 }
