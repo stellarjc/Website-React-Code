@@ -21,3 +21,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* mobile section */
+@media only screen and (max-device-width: 480px){
+  /* css for mobile section */
+  body, html { 
+    overflow-x: hidden; 
+    overflow-y: auto;
+}
+}

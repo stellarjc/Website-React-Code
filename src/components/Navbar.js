@@ -1,11 +1,26 @@
 import '../css/Navbar.css'
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
-function navbar() {
+import { Button, Drawer } from 'antd';
+function Navbar() {
+
+
+    const [open, setOpen] = useState(false);
+
+    const showDrawer = () => {
+        setOpen(true);
+    };
+
+    const onClose = () => {
+        setOpen(false);
+    };
+
+
     return <div className="navbar">
-        {/* <div className="logo">
+        <div className="logo">
             <img src="logo-3.png" className="logo-img" alt="logo" />
             <p className="logo-text">STELLAR-JC</p>
-        </div> */}
+        </div>
         <div className="menu">
             <ul className="menu-list">
                 <li className="menu-list-item"><Link className="menu-list-item-a1" to='/'>HOME</Link></li>
@@ -17,7 +32,21 @@ function navbar() {
                 <li className="menu-list-item"><Link className="menu-list-item-a" to='/con'>CONTACT-US</Link></li>
             </ul>
         </div>
+        <div className="dropdown">
+        <Button type="primary" onClick={showDrawer}>
+            .
+        </Button>
+        <Drawer title="Basic Drawer" placement="right" onClose={onClose} open={open}>
+            <p><Link className="menu-list-item-a1" to='/'>HOME</Link></p>
+            <p><Link className="menu-list-item-a" to='/cos'>COSMOLOGY</Link></p>
+            <p><Link className="menu-list-item-a" to='/roc'>ROCKETRY</Link></p>
+            <p><Link className="menu-list-item-a" to='/spt'>SPACE-TECH</Link></p>
+            <p><Link className="menu-list-item-a" to='/spn'>SPACE-NEWS</Link></p>
+            <p><Link className="menu-list-item-a" to='/tem'>TEAM</Link></p>
+            <p><Link className="menu-list-item-a" to='/con'>CONTACT-US</Link></p>
+        </Drawer>
+        </div>
     </div>
 }
 
-export default navbar;
+export default Navbar;
