@@ -2,6 +2,7 @@ import '../css/Navbar.css'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { Button, Drawer } from 'antd';
+import MenuIcon from '@mui/icons-material/Menu';
 function Navbar() {
 
 
@@ -33,9 +34,7 @@ function Navbar() {
             </ul>
         </div>
         <div className="dropdown">
-        <Button type="primary" onClick={showDrawer}>
-            .
-        </Button>
+        <MenuIcon color="secondary" onClick={showDrawer} />
         <Drawer placement="right" onClose={onClose} open={open} width="200px">
             <p><Link className="menu-list-item-a" to='/' onClick={()=>{setOpen(false);}}>HOME</Link></p>
             <p><Link className="menu-list-item-a" to='/cos' onClick={()=>{setOpen(false);}}>COSMOLOGY</Link></p>

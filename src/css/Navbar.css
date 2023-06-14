@@ -54,7 +54,7 @@
     display:none;
 } 
 .dropdown{
-    display:none;
+    display:block;
 }
 
 
@@ -64,6 +64,7 @@
     .navbar{
         height: 70px;
         display:flex;
+        background:rgb(26, 25, 25);
     }
     .menu{
         display: none;
