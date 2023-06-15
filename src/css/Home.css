@@ -110,7 +110,7 @@
 
     .home-content {
         text-align: center;
-        height: auto;
+        height:auto;
     }
 
     .home-content-nav {
@@ -118,6 +118,7 @@
     }
 
     .home-content-h1 {
+        margin-top: 200px;
         font-size: 50px;
     }
 
@@ -125,6 +126,12 @@
         display:flex;
         justify-content: center;
         align-items: center;
+    }
+
+    .home-b2 {
+        margin-top:400px ;
+        display:flex;
+        margin-left:30px;
     }
 
     .home-b1-btn {
@@ -140,5 +147,24 @@
     .home-b1-btn:hover {
         background: rgb(255, 255, 255);
         color: rgb(0, 0, 0);
+    }
+
+    .home-main-aim-p {
+        max-width: 350px;
+        margin-top: 0px;
+        margin-left: 30px;
+        font-size: 17px;
+        font-weight: 500;
+        font-family: "montserrat", Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: rgb(255, 255, 255);
+    }
+
+    .home-main-aim-h1 {
+        margin-top: 60px;
+        margin-left: 30px;
+        font-size: 40px;
+        font-weight: 500;
+        font-family: "montserrat", Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: rgb(255, 255, 255);
     }
 }

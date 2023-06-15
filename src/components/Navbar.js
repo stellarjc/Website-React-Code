@@ -19,8 +19,8 @@ function Navbar() {
 
     return <div className="navbar">
         <div className="logo">
-            <img src="logo-3.png" className="logo-img" alt="logo" />
-            <p className="logo-text">STELLAR-JC</p>
+        <img src="logo-3.png" className="logo-img" alt="logo" />
+        <Link to="/"><p className="logo-text">STELLAR-JC</p></Link>
         </div>
         <div className="menu">
             <ul className="menu-list">

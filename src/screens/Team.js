@@ -109,10 +109,10 @@ function Team() {
 
     const socialMedia = [
         {
-            name: "Amreen",
-            position: "Social Media Head",
-            image: "team/hashir.jpg",
-            links: []
+            name: "Amreen Ahmedi",
+            position: "Graphics Head",
+            image: "team/amreen.png",
+            links: ["https://instagram.com/am.reeeeeeen?igshid=OGQ5ZDc2ODk2ZA==","https://www.linkedin.com/in/amreen-ahmedi-b92911273?trk=contact-info"]
         }
     ]
 

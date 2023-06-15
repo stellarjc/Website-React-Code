@@ -53,8 +53,11 @@ To help students seize future opportunities in the space sector And achieve prid
                 <Link to="/h3"><span className="home-content-nav-span">.</span></Link>
             </nav>
         </div>
-        {/* <div className="home-b1"> */}
-        {/* </div> */}
+        <div className="home-b2">
+            <button className="home-b1-btn" onClick={() => {
+                    window.location.href = '/h3';
+            }}>Next</button>
+        </div>
     </div>
 }
 
