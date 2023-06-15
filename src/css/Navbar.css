@@ -56,7 +56,7 @@
 .dropdown{
     display:block;
 }
-/* Below two media queries work while trying responsiveness but don't while resizing viewport :( */
+
 @media only screen and (max-width: 800px) {
     .menu-list-item-a, .menu-list-item-a1{
         font-size: 12px;
