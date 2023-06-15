@@ -15,7 +15,8 @@ function Home() {
     });
 
     return <div className="home">
-        <video className="home-video" src="/club-comp.mp4" autoPlay loop muted />
+        {/* <video className="home-video" src="/club-comp.mp4" autoPlay loop muted /> */}
+        <img className="home-video" src="/rotating-grid-square.gif" alt="club-comp" />
         <div className="home-content">
             <h1 className='home-content-h1'>STELLAR JC</h1>
             <p className="home-content-p">A place where you can learn, grow and explore</p>
