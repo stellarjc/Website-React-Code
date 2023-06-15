@@ -11,8 +11,8 @@ function Cosmology() {
       }}}>EXPLORE MORE</button>
     </div>
      <div className='cos-content'>
-            <h1 className='cos-content-main-h1'>WHAT WE DO</h1>
-            <p className='cos-content-main-p'>Focuses on the various astronomical and meteorological observations, sky studies, operations of telescopes and special<br /> purpose sensors and cameras, composition of planets, motion of celestial bodies, eclipses, meteor showers, planetary alignments, origin and <br />evolution of the universe, astrobiology, geeky astrophysical phenomena like black holes, neutron stars, nebulae, galaxy motions, birth of starts and other concepts like gravity,space-time, twin paradox etc. To find the fundamental nature of the universe and our place within it</p>
+            <h1 className='cos-content-main-h1'>What we do</h1>
+            <p className='cos-content-main-p'>We focus on the various astronomical and meteorological observations, sky studies, operations of telescopes and special<br /> purpose sensors and cameras, composition of planets, motion of celestial bodies, eclipses, meteor showers, planetary alignments, origin and <br />evolution of the universe, astrobiology, geeky astrophysical phenomena like black holes, neutron stars, nebulae, galaxy motions, birth of starts and other concepts like gravity,space-time, twin paradox etc. To find the fundamental nature of the universe and our place within it</p>
       </div>
       <div className='cos-content2'>
             <p className='cos-content2-p'>Join us on mesmerizing stargazing expeditions where we explore the celestial
@@ -21,10 +21,10 @@ function Cosmology() {
               and debates about cosmology, astrophysics, and the future of space exploration. Our club provides a platform 
               for intellectual discourse, where members can exchange ideas, challenge conventional wisdom, and explore the 
               mysteries that still elude us</p>
-            <img className='cos-content2-img' src='cos2.jpg' />
+            <img className='cos-content2-img' src='cos2.jpg' alt="cosmology2"/>
       </div>
       <div className='cos-content3'>
-      <img className='cos-content3-img' src='cos3.jpg' />
+      <img className='cos-content3-img' src='cos3.jpg' alt="cosmology3"/>
             <p className='cos-content3-p'>Participate in interactive workshops and demonstrations where you can delve into 
             various aspects of astronomy and space science. Whether it's learning about astrophotography, understanding the 
             life cycles of stars, or constructing your own model rocket, we offer hands-on experiences that ignite curiosity 
