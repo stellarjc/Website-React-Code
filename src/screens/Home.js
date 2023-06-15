@@ -6,12 +6,12 @@ function Home() {
     window.addEventListener('scroll', function (e) {
         console.log(this.window.scrollY);
         console.log(this.window.location.href);
-        if(this.window.location.href==='http://localhost:3000/'){
-        if (this.window.scrollY >50) {
-            console.log('scrolling down');
-            window.location.href = '/h2';
+        if (this.window.location.href === 'http://localhost:3000/') {
+            if (this.window.scrollY > 50) {
+                console.log('scrolling down');
+                window.location.href = '/h2';
+            }
         }
-    }
     });
 
     return <div className="home">
@@ -19,15 +19,17 @@ function Home() {
         <div className="home-content">
             <h1 className='home-content-h1'>STELLAR JC</h1>
             <p className="home-content-p">A place where you can learn, grow and explore</p>
-            {/* <button className="home-content-btn">EXPLORE</button> */}
             <nav className="home-content-nav">
                 <Link to="/"><span className="home-content-nav-spana">.</span></Link>
                 <Link to="/h2"><span className="home-content-nav-span">.</span></Link>
                 <Link to="/h3"><span className="home-content-nav-span">.</span></Link>
             </nav>
         </div>
-        {/* <div className="home-b1"> */}
-        {/* </div> */}
+        <div className="home-b1">
+            <button className="home-b1-btn" onClick={() => {
+                    window.location.href = '/h2';
+            }}>EXPLORE MORE</button>
+        </div>
     </div>
 }
 
