@@ -1,3 +1,24 @@
+.gradient-underline-pink {
+    background: linear-gradient(to left, #f69cc3, #fed05b 100%);
+    background-position: 0 100%;
+    background-size: 100% 3px;
+    background-repeat: repeat-x;
+}
+.gradient-underline-blue {
+    background: linear-gradient(to left, #030f2c,#2e74ff 100%);
+    background-position: 0 100%;
+    background-size: 100% 3px;
+    background-repeat: repeat-x;
+}
+
+
+.gradient-underline-light-green {
+    background: linear-gradient(to left, #050904, #2ba3af 100%);
+    background-position: 0 100%;
+    background-size: 100% 3px;
+    background-repeat: repeat-x;
+}
+
 .cos-img{
     width: 100%;
     height:auto;
@@ -14,9 +35,20 @@
     margin-top: 170px;
     margin-bottom: 40px;
     font-size: 100px;
-    font-family: 'Montserrat', Courier, monospace;
+    font-family: Georgia, Times, 'Times New Roman', serif;
     color:rgb(255, 255, 255);
 }
+
+.cos-tit-p {
+    margin-top: 0px;
+    margin-bottom: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: rgb(212, 212, 212);
+}
+
+
 .cos-tit-btn{
     padding:20px;
     border: 3px solid rgb(255, 255, 255);
@@ -30,7 +62,7 @@
     color:rgb(0, 0, 0);
 }
 .cos-content{
-    margin-top: 600px;
+    margin-top: 400px;
 }
 .cos-content-main-h1{
     font-size: 50px;
@@ -38,46 +70,141 @@
     text-align: center;
     margin-bottom: 30px;
     color: #ffffff;
-    font-family: 'Montserrat', Courier, monospace;
+    font-family: Courier, monospace;
 }
 .cos-content-main-p{
     font-size: 20px;
     font-weight: 200;
     text-align: center;
     margin-bottom: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
     color: #ffffff;
-    font-family: 'Montserrat', Courier, monospace;
+    font-family: Georgia, Times, 'Times New Roman', serif;
 }
-.cos-content2{
+.cos-content2, .cos-content3 {
     margin: 40px;
     margin-top: 150px;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-left: 5%;
+    padding-right: 5%;
 }
-.cos-content2-p{
+
+.cos-content3{
+    margin-top: 120px;
+}
+
+.cos-content2-p, .cos-content3-p {
+    list-style-type: '💫 ';
+    list-style-position: outside;
     color: #ffffff;
+    font-size: 20px;
+    margin: 20px;
     font-family:'montserrat', Helvetica, sans-serif;
     font-weight: 300;
     text-align: left;
 }
-.cos-content2-img{
-    height: 300px;
+
+.cos-content2-p > li, .cos-content3-p > li {
+    margin-bottom: 6px;
 }
-.cos-content3{
-    margin: 40px;
-    margin-top: 120px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
 .cos-content3-p{
-    color: #ffffff;
-    font-family:'montserrat', Helvetica, sans-serif;
-    font-weight: 300;
-    text-align:left;
     margin-left: 50px;
 }
-.cos-content3-img{
+
+.cos-content2-img, .cos-content3-img {
     height: 300px;
+    border-top: 5px solid white;
+    border-right: 5px solid white;
+    border-bottom: 15px solid white;
+    border-left: 5px solid white;
+    margin: 10px;
+}
+
+.cos-content2-img {
+    transform: rotate(-8deg);
+}
+
+.cos-content3-img {
+    transform: rotate(8deg);
+}
+
+.cos-content2-img:hover {
+    transition: all 1s ease-in-out;
+    transform: scale(1.05);
+    transform: rotate(8deg);
+}
+
+.cos-content3-img:hover {
+    transition: all 1s ease-in-out;
+    transform: scale(1.05);
+    transform: rotate(-8deg);
+}
+
+@media only screen and (max-width: 1120px) {
+    .cos-tit-h1 {
+        font-size: 75px;
+    }
+
+    .cos-tit-p {
+        font-size: 50px;
+    }
+
+    .cos-content{
+        margin-top: 200px;
+    }
+    
+    .cos-content2, .cos-content3 {
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    .cos-content-p, .cos-content2-p, .cos-content3-p {
+        font-size: 22px;
+        margin-left:0;
+    }
+    .cos-content2, .cos-content3 {
+        flex-wrap: wrap;
+    }
+    .cos-content2-img, .cos-content3-img {
+        height: 250px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .cos-tit-h1 {
+        font-size: 70px;
+    }
+
+    .cos-tit-p {
+        font-size: 17px;
+    }
+
+    .cos-content-p, .cos-content2-p, .cos-content3-p {
+        font-size: 17px;
+    }
+
+    .cos-content2-img, .cos-content3-img {
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .cos-tit-h1 {
+        font-size: 60px;
+    }
+
+    .cos-tit-p {
+        font-size: 15px;
+    }
+
+    .cos-content-p, .cos-content2-p, .cos-content3-p {
+        font-size: 15px;
+    }
+
+    .cos-content2-img, .cos-content3-img {
+        height: 150px;
+    }
 }
