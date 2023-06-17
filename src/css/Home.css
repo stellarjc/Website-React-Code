@@ -99,6 +99,10 @@
     display: none;
 }
 
+.home-b2 {
+    display: none;
+}
+
 /* mobile section */
 @media only screen and (max-device-width: 480px) {
 

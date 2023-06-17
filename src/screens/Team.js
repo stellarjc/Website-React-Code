@@ -22,7 +22,7 @@ function Team() {
             links: ["hashirazhaf@gmail.com", "https://www.linkedin.com/in/hashir-azhaf-898243233", "https://twitter.com/Avinash77936013"]
         },
         {
-            name: "Avinash Reddy c",
+            name: "Avinash Reddy C",
             position: "Web, Content, Graphics",
             image: "team/avinash.jpeg",
             links: ["avihanvaisri@gmail.com", "https://www.linkedin.com/in/avinash-reddy-c-857057235/", "https://twitter.com/Avinash77936013"]

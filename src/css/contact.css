@@ -54,3 +54,47 @@
 .con-info-icon{
     margin:10px;
 }
+
+/* mobile section */
+@media only screen and (max-device-width: 480px) {
+
+    /* css for mobile section */
+    .con-main-info{
+        display: none;
+    }
+    .con-main-form{
+        display: block;
+        margin-top: 100px;
+        margin-left:0px;
+        border: #ffffff solid 1px;
+        border-radius:5%;
+    }
+    .con-form-inp{
+        width:300px;
+        height: 35px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .con-form-inm{
+        width:300px;
+        height: 35px;
+        margin-left: 20px;
+    }
+    .con-form-h1{
+        color: #ffffff;
+        margin-left: 20px;
+        font-size: 20px;
+    }
+    .con-form-btn{
+        width: 100px;
+        height: 40px;
+        margin-left: 20px;
+        margin-top: 30px;
+        margin-bottom:30px;
+        background-color: #ffffff;
+        border: none;
+        border-radius: 5px;
+        color: #000000;
+        font-size: 15px;
+    }
+}
