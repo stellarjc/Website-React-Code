@@ -4,8 +4,8 @@ function Cosmology() {
     <div className="cos">
     <img className="cos-img" src="cos.jpg" alt="cosmology" />
     <div className="cos-tit">
-      <h1 className='cos-tit-h1'>Cosmology.</h1>
-      <p className='cos-tit-p'>Wander into the stars.</p>
+      <h1 className='cos-tit-h1'>Cosmology</h1>
+      <p className='cos-tit-p'>Wander into the stars</p>
       <button className="cos-tit-btn" onClick={()=>{
         if(window.location.href==='http://localhost:3000/cos'){
           window.scrollTo(0,800);

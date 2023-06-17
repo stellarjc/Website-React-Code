@@ -32,4 +32,8 @@ code {
 body{
   position: relative;
 }
+a {
+  -webkit-tap-highlight-color: transparent !important;
+  
+  outline: none !important; }
 }

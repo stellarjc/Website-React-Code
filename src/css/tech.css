@@ -82,3 +82,87 @@
 .tec-content3-img{
     height: 300px;
 }
+
+@media only screen and (max-width: 1120px) {
+    .tec-tit-h1 {
+        font-size: 75px;
+    }
+
+    .tec-tit-p {
+        font-size: 50px;
+    }
+
+    .tec-content{
+        margin-top: 200px;
+    }
+    
+    .tec-content2, .tec-content3 {
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    .tec-content-p, .tec-content2-p, .tec-content3-p {
+        font-size: 22px;
+        margin-left:0;
+    }
+    .tec-content2, .tec-content3 {
+        flex-wrap: wrap;
+    }
+    .tec-content2-img, .tec-content3-img {
+        height: 250px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .tec-tit-h1 {
+        font-size: 70px;
+    }
+
+    .tec-tit-p {
+        font-size: 17px;
+    }
+
+    .tec-content-p, .tec-content2-p, .tec-content3-p {
+        font-size: 17px;
+    }
+
+    .tec-content2-img, .tec-content3-img {
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .tec-tit-h1 {
+        font-size: 55px;
+        font-weight: 700px;
+    }
+
+    .tec-tit-p {
+        font-size: 15px;
+    }
+
+    .tec-tit-btn{
+        display: none;
+    }
+
+    .tec-content-p, .tec-content2-p, .tec-content3-p {
+        font-size: 15px;
+    }
+
+    .tec-content2-img, .tec-content3-img {
+        height: 150px;
+    }
+
+    .tec-content-main-h1{
+        margin-top: 350px;
+        font-size:40px;
+    }
+
+    .tec-img{
+        height:600px;
+        width: auto;
+        position:absolute;
+        transform: translate(-27%,10%);
+        z-index: -1;
+        filter: brightness(50%);
+    }
+}
