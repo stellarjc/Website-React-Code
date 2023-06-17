@@ -19,7 +19,7 @@ function Home() {
         <img className="home-video" src="/rotating-grid-square.gif" alt="club-comp" />
         <div className="home-content">
             <h1 className='home-content-h1'>STELLAR JC</h1>
-            <p className="home-content-p">A place where you can learn, grow and explore</p>
+            <p className="home-content-p">A place where you can <br />learn, grow and explore</p>
             <nav className="home-content-nav">
                 <Link to="/"><span className="home-content-nav-spana">.</span></Link>
                 <Link to="/h2"><span className="home-content-nav-span">.</span></Link>

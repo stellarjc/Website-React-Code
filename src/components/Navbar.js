@@ -16,6 +16,8 @@ function Navbar() {
         setOpen(false);
     };
 
+    
+
 
     return <div className="navbar">
         <div className="logo">
@@ -34,8 +36,11 @@ function Navbar() {
             </ul>
         </div>
         <div className="dropdown">
-        <MenuIcon color="secondary" onClick={showDrawer} />
-        <Drawer placement="right" onClose={onClose} open={open} width="200px">
+        <MenuIcon color="primary" onClick={showDrawer} sx={{"marginTop":"7px"}}/>
+        <Drawer placement="right" onClose={onClose} open={open} width="200px" 
+        bodyStyle={{"text-align":"right","background-color":"black"}}
+        style={{"text-align":"right","background-color":"black"}}
+        >
             <p><Link className="menu-list-item-a" to='/' onClick={()=>{setOpen(false);}}>Home</Link></p>
             <p><Link className="menu-list-item-a" to='/cos' onClick={()=>{setOpen(false);}}>Cosmology</Link></p>
             <p><Link className="menu-list-item-a" to='/roc' onClick={()=>{setOpen(false);}}>Rocketry</Link></p>

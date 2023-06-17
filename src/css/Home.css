@@ -1,10 +1,11 @@
 .home-video {
+    width: 100%;
     left: 50%;
     top: 65%;
     transform: translate(-50%, -50%);
     position: absolute;
     z-index: -1;
-    filter: brightness(30%);
+    filter: brightness(10%);
 }
 
 .home-content {
@@ -81,7 +82,7 @@
     font-size: 50px;
     font-weight: 500;
     font-family: "montserrat", Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: rgb(255, 255, 255);
+    color: rgb(236, 195, 11);
 }
 
 .home-main-aim-p {
@@ -107,14 +108,15 @@
 
     /* css for mobile section */
     .home-video {
-        height: 300px;
-        width: 300px;
-        top: auto;
+        width: 1000px;
+        top: 420px;
+        position: absolute;
+        z-index: -1;
     }
 
     .home-content {
         text-align: center;
-        height:auto;
+        height:500px;
     }
 
     .home-content-nav {
@@ -127,6 +129,9 @@
     }
 
     .home-b1 {
+        position: absolute;
+        top: 400px;
+        left: 25%;
         display:flex;
         justify-content: center;
         align-items: center;
@@ -140,8 +145,20 @@
 
     .home-b1-btn {
         display: block;
-        padding: 20px;
-        border: 3px solid rgb(255, 255, 255);
+        margin-top: 50px;
+        padding:20px;
+        border: 2px solid rgb(255, 255, 255);
+        background: none;
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        font-family: 'Montserrat', Courier, monospace;
+    }
+
+    .home-b2-btn {
+        display: block;
+        margin-top: 350px;
+        padding:20px;
+        border: 2px solid rgb(255, 255, 255);
         background: none;
         color: rgb(255, 255, 255);
         font-size: 20px;
@@ -169,6 +186,6 @@
         font-size: 40px;
         font-weight: 500;
         font-family: "montserrat", Cochin, Georgia, Times, 'Times New Roman', serif;
-        color: rgb(255, 255, 255);
+       color:rgb(236, 195, 11);
     }
 }

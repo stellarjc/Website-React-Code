@@ -81,13 +81,16 @@
     .navbar{
         height: 70px;
         display:flex;
-        background:rgb(26, 25, 25);
+        background:rgb(22, 22, 22);
+        position:sticky;
+        top: 0px;
+        z-index:0;
     }
     .menu{
         display: none;
     }
     .logo{
-        display: flex;
+        display:flex;
         position: absolute;
         left:0px;
         align-items: center;
@@ -98,17 +101,18 @@
     height: 50px;
     }
     .logo-text{
-    color:#ffffff;
+    color:#ddac61;
     font-family: 'montserrat', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 390;
+    font-weight:700;
     font-size: 20px;
     }
     .menu-list-item-a{
-        color:#000000;
+        color:#ffffff;
+        font-size: 18px;
     }
     .dropdown{
         display: block;
-        position: absolute;
-        right: 10px;
+        position:absolute;
+        right:15px;
     }
 }
