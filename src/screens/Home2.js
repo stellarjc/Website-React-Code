@@ -5,7 +5,7 @@ function Home2() {
 
     window.addEventListener('scroll', function (e) {
         console.log(this.window.scrollY);
-        if (this.window.location.href === 'http://localhost:3000/h2') {
+        if (this.window.location.href === `${window.location.protocol+'//'+window.location.host}/h2`) {
             if (this.window.scrollY > 350) {
                 console.log('scrolling down');
                 window.location.href = '/h3';

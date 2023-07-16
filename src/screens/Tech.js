@@ -7,7 +7,7 @@ function Tech() {
         <div className="tec-tit">
           <h1 className='tec-tit-h1'>SPACE-TECH</h1>
           <button className="tec-tit-btn" onClick={()=>{
-        if(window.location.href==='http://localhost:3000/spt'){
+        if(window.location.href===`${window.location.protocol+'//'+window.location.host}/spt`){
           window.scrollTo(0,795);
       }}}>EXPLORE MORE</button>
         </div>

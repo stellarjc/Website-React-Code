@@ -10,14 +10,14 @@ import Tech from './screens/Tech';
 import Team from './screens/Team';
 import News from './screens/News';
 import Navbar from './components/Navbar';
-import Footer from './components/Footer';
+// import Footer from './components/Footer';
 import Contact from './screens/Contact';
 
 
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />

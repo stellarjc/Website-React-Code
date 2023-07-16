@@ -7,7 +7,7 @@ function Rocketry() {
         <div className="roc-tit">
           <h1 className='roc-tit-h1'>ROCKETRY</h1>
           <button className="roc-tit-btn" onClick={()=>{
-        if(window.location.href==='http://localhost:3000/roc'){
+        if(window.location.href===`${window.location.protocol+'//'+window.location.host}/roc`){
           window.scrollTo(0,800);
       }}}>EXPLORE MORE</button>
         </div>
