@@ -18,12 +18,25 @@ function Rocketry() {
 Learn about the principles of Rocket Science, Rocket Design and Propulsion systems.</p>
         </div>
         <div className='roc-content2'>
-            <p className='roc-content2-p'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br />tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,<br /> quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br /> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-            <img className='roc-content2-img' src='cos2.jpg' />
+        <ul className='roc-content2-p'>
+              <li> Join us on <span className='gradient-underline-pinkk'>mesmerizing stargazing expeditions</span> where we explore the celestial marvels that adorn our night sky. </li>
+             <li> From observing distant galaxies to tracking the movements of planets, 
+             we provide opportunities to witness astronomical phenomena firsthand.</li>
+             <li> Engage in thought-provoking conversations
+              and debates about cosmology, astrophysics, and the future of space exploration. </li>
+              <li> Our club provides a platform 
+              for intellectual discourse, where members can exchange ideas, challenge conventional wisdom, and <span className='gradient-underline-bluee'>explore the 
+              mysteries that still elude us. </span></li></ul>
+            <img className='roc-content2-img' src='roc2.jpg' />
       </div>
       <div className='roc-content3'>
-      <img className='roc-content3-img' src='cos2.jpg' />
-            <p className='roc-content3-p'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br />tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,<br /> quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br /> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+      <img className='roc-content3-img' src='roc3.png' />
+        <ul className='roc-content3-p'>
+              <li>Participate in <span className='gradient-underline-light-greenn'>interactive workshops and demonstrations</span> where you can delve into 
+            various aspects of astronomy and space science.</li>
+              <li>Whether it's learning about astrophotography, understanding the 
+            life cycles of stars, or constructing your own model rocket, we offer hands-on experiences that ignite curiosity 
+            and foster practical skills.</li> </ul>
       </div>
       </div>
     </div>

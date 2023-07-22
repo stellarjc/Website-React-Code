@@ -169,7 +169,8 @@ function Team() {
 
 
     return <div className="main">
-        <div className="team-head">
+        <img className='team-img' src="teamimg.jpg" alt="team" />
+        <div className="team-head" style={{"paddingTop":"70px"}}>
             <h1 className="team-head-h1">Leads</h1>
         </div>
         <div className="team">

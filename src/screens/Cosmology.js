@@ -13,7 +13,7 @@ function Cosmology() {
     </div>
      <div className='cos-content'>
             <h1 className='cos-content-main-h1'>What do we do?</h1>
-            <p className='cos-content-main-p'>We focus on the various <span className='gradient-underline-pinkk'>astronomical and meteorological observations</span>, sky studies, operations of telescopes and special purpose sensors and cameras, composition of planets, motion of celestial bodies, eclipses, <span className="gradient-underline-bluee">meteor showers, planetary alignments</span>, origin and evolution of the universe, astrobiology, <br /> Geeky astrophysical phenomena like <span className='gradient-underline-light-greenn'>black holes, neutron stars, nebulae, galaxy motions</span>, birth of starts and other concepts like gravity,space-time, twin paradox etc. To find the fundamental nature of the universe and our place within it</p>
+            <p className='cos-content-main-p'>We focus on the various <span className='gradient-underline-pinkk'>astronomical and meteorological observations</span>, sky studies, operations of telescopes and special purpose sensors and cameras, composition of planets, motion of celestial bodies, eclipses, <span className="gradient-underline-bluee">meteor showers, planetary alignments</span>, origin and evolution of the universe, astrobiology, Geeky astrophysical phenomena like <span className='gradient-underline-light-greenn'>black holes, neutron stars, nebulae, galaxy motions</span>, birth of starts and other concepts like gravity,space-time, twin paradox etc. To find the fundamental nature of the universe and our place within it</p>
       </div>
       <div className='cos-content2'>
             <ul className='cos-content2-p'>
