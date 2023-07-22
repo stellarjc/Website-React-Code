@@ -30,7 +30,7 @@ function Navbar() {
                 <li className="menu-list-item"><Link className="menu-list-item-a" to='/cos'>Cosmology</Link></li>
                 <li className="menu-list-item"><Link className="menu-list-item-a" to='/roc'>Rocketry</Link></li>
                 <li className="menu-list-item"><Link className="menu-list-item-a" to='/spt'>Space Tech</Link></li>
-                <li className="menu-list-item"><Link className="menu-list-item-a" to='/spn'>Space News</Link></li>
+                <li className="menu-list-item"><Link className="menu-list-item-a" to='/spn'>Space Talk</Link></li>
                 <li className="menu-list-item"><Link className="menu-list-item-a" to='/tem'>The Team</Link></li>
                 <li className="menu-list-item"><Link className="menu-list-item-a" to='/con'>Contact Us</Link></li>
             </ul>
@@ -45,7 +45,7 @@ function Navbar() {
             <p><Link className="menu-list-item-a" to='/cos' onClick={()=>{setOpen(false);}}>Cosmology</Link></p>
             <p><Link className="menu-list-item-a" to='/roc' onClick={()=>{setOpen(false);}}>Rocketry</Link></p>
             <p><Link className="menu-list-item-a" to='/spt' onClick={()=>{setOpen(false);}}>Space Tech</Link></p>
-            <p><Link className="menu-list-item-a" to='/spn' onClick={()=>{setOpen(false);}}>Space News</Link></p>
+            <p><Link className="menu-list-item-a" to='/spn' onClick={()=>{setOpen(false);}}>Space Talk</Link></p>
             <p><Link className="menu-list-item-a" to='/tem' onClick={()=>{setOpen(false);}}>The Team</Link></p>
             <p><Link className="menu-list-item-a" to='/con' onClick={()=>{setOpen(false);}}>Contact Us</Link></p>
         </Drawer>
