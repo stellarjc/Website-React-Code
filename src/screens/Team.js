@@ -7,25 +7,25 @@ function Team() {
             name: "Hashir Azhaf",
             position: "President",
             image: "team/hashir.jpg",
-            links: ["hashirazhaf@gmail.com", "https://www.linkedin.com/in/hashir-azhaf-898243233", "https://instagram.com/lion_heart_003?igshid=MzNlNGNkZWQ4Mg=="]
+            links: ["mailto:hashirazhaf@gmail.com", "https://www.linkedin.com/in/hashir-azhaf-898243233", "https://instagram.com/lion_heart_003?igshid=MzNlNGNkZWQ4Mg=="]
         },
         {
             name: "Afnan Khazi",
             position: "Vice president",
             image: "team/afnan.jpg",
-            links: ["hashirazhaf@gmail.com", "https://www.linkedin.com/in/hashir-azhaf-898243233", "https://instagram.com/lion_heart_003?igshid=MzNlNGNkZWQ4Mg=="]
+            links: ["mailto:hashirazhaf@gmail.com", "https://www.linkedin.com/in/hashir-azhaf-898243233", "https://instagram.com/lion_heart_003?igshid=MzNlNGNkZWQ4Mg=="]
         },
         {
             name: "Yash P Jain",
             position: "Secretary",
             image: "team/hashir.jpg",
-            links: ["hashirazhaf@gmail.com", "https://www.linkedin.com/in/hashir-azhaf-898243233", "https://twitter.com/Avinash77936013"]
+            links: ["mailto:hashirazhaf@gmail.com", "https://www.linkedin.com/in/hashir-azhaf-898243233", "https://twitter.com/Avinash77936013"]
         },
         {
             name: "Avinash Reddy C",
             position: "Web, Content, Graphics",
             image: "team/avinash.jpeg",
-            links: ["avihanvaisri@gmail.com", "https://www.linkedin.com/in/avinash-reddy-c-857057235/", "https://twitter.com/Avinash77936013"]
+            links: ["mailto:avihanvaisri@gmail.com", "https://www.linkedin.com/in/avinash-reddy-c-857057235/", "https://github.com/avinash84319"]
         },
         {
             name: "Nikitha Rathod",
