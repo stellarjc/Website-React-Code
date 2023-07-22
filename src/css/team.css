@@ -5,7 +5,9 @@
     position: absolute;
     z-index: -4;
     height: inherit;
-    opacity: 40%;
+    opacity: 60%;
+  -webkit-filter: blur(8px);
+  filter: blur(8px);
 }
 .team{
     /* background-image:url("../../public/teamimg.jpg"); */
