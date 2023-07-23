@@ -3,10 +3,12 @@ import Button from '@mui/material/Button';
 function News() {
 
   const blogs=[{
+    id:1,
     head:"Amazon announced plans July 21 to build a satellite processing facility",
     parah:"Amazon announced plans July 21 to build a satellite processing facility at NASA’s Kennedy Space Center, Florida, as it prepares to start launching 3,200 commercial Project Kuiper broadband satellites next year."
     ,link:"https://spacenews.com/amazon-picks-kennedy-space-center-for-project-kuiper-processing-facility/"
-    ,image:"roc2.jpg"
+    ,image:"roc2.jpg",
+    content:""
   },{
     head:"Amazon announced plans July 21 to build a satellite processing facility",
     parah:"Amazon announced plans July 21 to build a satellite processing facility at NASA’s Kennedy Space Center, Florida, as it prepares to start launching 3,200 commercial Project Kuiper broadband satellites next year."

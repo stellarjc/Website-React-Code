@@ -1,0 +1,29 @@
+.read{
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: 1fr 680px 1fr;
+    row-gap: 20px;
+}
+.read-head{
+    grid-column: 2/3;
+    font-family:"Montserrat", Helvetica, Arial, sans-serif;
+    font-size: 50px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.read-img-div{
+    grid-column: 2/3;
+}
+.read-img{
+    width: 100%;
+    height:auto;
+}
+.read-main-text{
+    margin-top: 70px;
+    font-family:"nyt-cheltenham", georgia, "times new roman", times, serif;;
+    font-size: 20px;
+    text-align: justify;
+}
+h2{
+    font-size:24px;
+}

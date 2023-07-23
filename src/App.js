@@ -12,6 +12,7 @@ import News from './screens/News';
 import Navbar from './components/Navbar';
 // import Footer from './components/Footer';
 import Contact from './screens/Contact';
+import Read from './screens/Read';
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
           <Route path="/spn" element={<News />} />
           <Route path="/tem" element={<Team />} />
           <Route path="/con" element={<Contact />} />
+          <Route path="/read" element={<Read />} />
         </Routes>
       {/* <Footer /> */}
       </BrowserRouter>
