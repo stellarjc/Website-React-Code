@@ -30,7 +30,7 @@ function App() {
           <Route path="/spn" element={<News />} />
           <Route path="/tem" element={<Team />} />
           <Route path="/con" element={<Contact />} />
-          <Route path="/read" element={<Read />} />
+          <Route path="/read/:id" element={<Read />} />
         </Routes>
       {/* <Footer /> */}
       </BrowserRouter>

@@ -1,34 +1,16 @@
 import '../css/news.css'
+import blogs from '../data/blogs'
 import Button from '@mui/material/Button';
 function News() {
 
-  const blogs=[{
-    id:1,
-    head:"Amazon announced plans July 21 to build a satellite processing facility",
-    parah:"Amazon announced plans July 21 to build a satellite processing facility at NASA’s Kennedy Space Center, Florida, as it prepares to start launching 3,200 commercial Project Kuiper broadband satellites next year."
-    ,link:"https://spacenews.com/amazon-picks-kennedy-space-center-for-project-kuiper-processing-facility/"
-    ,image:"roc2.jpg",
-    content:""
-  },{
-    head:"Amazon announced plans July 21 to build a satellite processing facility",
-    parah:"Amazon announced plans July 21 to build a satellite processing facility at NASA’s Kennedy Space Center, Florida, as it prepares to start launching 3,200 commercial Project Kuiper broadband satellites next year."
-    ,link:"https://spacenews.com/amazon-picks-kennedy-space-center-for-project-kuiper-processing-facility/"
-    ,image:"roc2.jpg"
-  },{
-    head:"Amazon announced plans July 21 to build a satellite processing facility",
-    parah:"Amazon announced plans July 21 to build a satellite processing facility at NASA’s Kennedy Space Center, Florida, as it prepares to start launching 3,200 commercial Project Kuiper broadband satellites next year."
-    ,link:"https://spacenews.com/amazon-picks-kennedy-space-center-for-project-kuiper-processing-facility/"
-    ,image:"roc2.jpg"
-  },{
-    head:"Amazon announced plans July 21 to build a satellite processing facility",
-    parah:"Amazon announced plans July 21 to build a satellite processing facility at NASA’s Kennedy Space Center, Florida, as it prepares to start launching 3,200 commercial Project Kuiper broadband satellites next year."
-    ,link:"https://spacenews.com/amazon-picks-kennedy-space-center-for-project-kuiper-processing-facility/"
-    ,image:"roc2.jpg"
-  }]
+  const buttonClick = (e,id) => {
+    e.preventDefault();
+    window.location.href = `/read/${id}`;
+  }
 
   const Allblogs = () => {
     return blogs.map((one) => {
-      return <div className="small-blog">
+      return <div className="small-blog" key={one.id}>
       <div className="small-blog-img">
         <img src="roc2.jpg" alt="blog" className="small-blog-image" />
       </div>
@@ -37,7 +19,7 @@ function News() {
       </div>
       <div className="small-blog-p">
         {/* <p className="small-blog-text-p">{one.parah}</p> */}
-        <Button href={one.link} className="small-blog-button">Read More</Button>
+        <Button onClick={(e)=>{buttonClick(e,one.id)}} className="small-blog-button">Read More</Button>
       </div>
     </div>
     })
@@ -57,7 +39,7 @@ function News() {
           </div>
           <div className="big-blog-p">
             <p className="big-blog-text-p">SpaceX is about to make history as it launches the first all-civilian mission to orbit. The Inspiration4 crew is set to launch from NASA's Kennedy Space Center in Florida on Wednesday, Sept. 15, and you can watch the whole thing live.</p>
-            <Button className="big-blog-button">Read More</Button>
+            <Button className="big-blog-button" onClick={(e)=>{buttonClick(e,blogs[0].id)}}>Read More</Button>
           </div>
         </div>
       </div>
