@@ -19,7 +19,7 @@ function Team() {
             name: "Yash P Jain",
             position: "Secretary",
             image: "team/hashir.jpg",
-            links: ["mailto:hashirazhaf@gmail.com", "https://www.linkedin.com/in/hashir-azhaf-898243233", "https://twitter.com/Avinash77936013"]
+            links: ["https://instagram.com/yash.pjain?utm_source=qr&igshid=MzNlNGNkZWQ4Mg=="]
         },
         {
             name: "Avinash Reddy C",
@@ -30,8 +30,8 @@ function Team() {
         {
             name: "Nikitha Rathod",
             position: "Treasurer",
-            image: "team/dixit.jpg",
-            links: ["https://www.linkedin.com/in/sai-dikshith-088270227"]
+            image: "team/nikita.jpg",
+            links: ["https://www.linkedin.com/in/sai-dikshith-088270227","https://www.instagram.com/nikita_rathod_31"]
         },
         {
             name: "Charitha M N",
@@ -64,19 +64,25 @@ function Team() {
             name: "Nida Fathima",
             position: "Content writer",
             image: "team/nida.jpg",
-            links: ["","https://www.linkedin.com/in/syedanidafathima","https://instagram.com/nid.aaa_?igshid=NGExMmI2YTkyZg=="]
+            links: ["https://www.linkedin.com/in/syedanidafathima","https://instagram.com/nid.aaa_?igshid=NGExMmI2YTkyZg=="]
         },
         {
-            name: "Akash",
-            position: "Graphic designer",
-            image: "team/hashir.jpg",
-            links: []
-        },
-        {
-            name: "Hashir Azhaf",
+            name: "Guruprasad",
             position: "Content writer",
-            image: "team/hashir.jpg",
-            links: []
+            image: "team/guru.jpg",
+            links: ["https://in.linkedin.com/in/guruprasad-navalihalkar-b3077b258"]
+        },
+        {
+            name: "Akash Acharya",
+            position: "Graphic designer",
+            image: "team/akash.jpg",
+            links: ["https://instagram.com/__a_cash?igshid=NGVhN2U2NjQ0Yg==","https://www.linkedin.com/in/akash-acharya-82b702255"]
+        },
+        {
+            name: "Rujwal K",
+            position: "Content writer",
+            image: "team/rujwal.jpg",
+            links: ["https://www.linkedin.com/in/rujwal-k-2014b3258","https://instagram.com/rujwal7?igshid=OGQ5ZDc2ODk2ZA=="]
         },
         {
             name: "Nikhil",
@@ -97,13 +103,7 @@ function Team() {
             name: "Sai Dikshith M",
             position: "Event Managment",
             image: "team/dixit.jpg",
-            links: ["https://www.linkedin.com/in/sai-dikshith-088270227"]
-        },
-        {
-            name: "Rujwal",
-            position: "Event Managment",
-            image: "team/dixit.jpg",
-            links: ["https://www.linkedin.com/in/sai-dikshith-088270227"]
+            links: ["https://www.linkedin.com/in/sai-dikshith-088270227","https://instagram.com/sai_dikshith_369?igshid=MzMyNGUyNmU2YQ=="]
         },
     ]
 
