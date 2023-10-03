@@ -13,7 +13,7 @@ const Read = () => {
     return <div className="read">
         <h1 className='read-head'>{blog.head}</h1>
         <div className="read-img-div">
-        <img src='/roc.jpg' alt='rocket' className='read-img' />
+        <img src={"/"+blog.image} alt='rocket' className='read-img' />
         <div dangerouslySetInnerHTML={{ __html: blog.content }} className='read-main-text'/>
         </div>
     </div>

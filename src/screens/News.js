@@ -12,7 +12,7 @@ function News() {
     return blogs.map((one) => {
       return <div className="small-blog" key={one.id}>
       <div className="small-blog-img">
-        <img src="roc2.jpg" alt="blog" className="small-blog-image" />
+        <img src={one.image} alt="blog" className="small-blog-image" />
       </div>
       <div className="small-blog-h1">
         <h1 className="small-blog-text-h1">{one.head}</h1>
@@ -32,13 +32,13 @@ function News() {
       <div className="big-blog-main">
         <div className="big-blog">
           <div className="big-blog-img">
-            <img src="roc2.jpg" alt="blog" className="big-blog-image" />
+            <img src={blogs[0].image} alt="blog" className="big-blog-image" />
           </div>
           <div className="big-blog-h1">
-            <h1 className="big-blog-text-h1">SpaceX's Inspiration4 mission is about to make history</h1>
+            <h1 className="big-blog-text-h1">{blogs[0].head}</h1>
           </div>
           <div className="big-blog-p">
-            <p className="big-blog-text-p">SpaceX is about to make history as it launches the first all-civilian mission to orbit. The Inspiration4 crew is set to launch from NASA's Kennedy Space Center in Florida on Wednesday, Sept. 15, and you can watch the whole thing live.</p>
+            <p className="big-blog-text-p">{blogs[0].parah}</p>
             <Button className="big-blog-button" onClick={(e)=>{buttonClick(e,blogs[0].id)}}>Read More</Button>
           </div>
         </div>

@@ -18,7 +18,7 @@ function Team() {
         {
             name: "Yash P Jain",
             position: "Secretary",
-            image: "team/hashir.jpg",
+            image: "team/yash.jpg",
             links: ["https://instagram.com/yash.pjain?utm_source=qr&igshid=MzNlNGNkZWQ4Mg=="]
         },
         {
@@ -34,10 +34,10 @@ function Team() {
             links: ["https://www.linkedin.com/in/sai-dikshith-088270227","https://www.instagram.com/nikita_rathod_31"]
         },
         {
-            name: "Charitha M N",
+            name: "Rashid",
             position: "Rocketry Head",
-            image: "team/charitha.jpg",
-            links: ["https://www.linkedin.com/in/charitha-gowda-a379ab207"]
+            image: "team/rashid.jpg",
+            links: ["https://www.linkedin.com/in/mohammedrashid2002","https://www.instagram.com/rashid_5525_rabbani/"]
         },
         {
             name: "Lalitha",
@@ -73,6 +73,12 @@ function Team() {
             links: ["https://in.linkedin.com/in/guruprasad-navalihalkar-b3077b258"]
         },
         {
+            name: "DEEKSHITH R",
+            position: "Content writer",
+            image: "team/dekshit.jpg",
+            links: ["https://www.linkedin.com/in/deekshith-r-51b545258","https://instagram.com/deeksh2004?igshid=OGQ5ZDc2ODk2ZA=="]
+        },
+        {
             name: "Akash Acharya",
             position: "Graphic designer",
             image: "team/akash.jpg",
@@ -89,7 +95,7 @@ function Team() {
             position: "Graphic designer",
             image: "team/hashir.jpg",
             links: []
-        },
+        }
     ]
 
     const eventManagment = [
@@ -135,6 +141,12 @@ function Team() {
     ]
 
     const rc= [
+        {
+            name: "Rashid",
+            position: "Rocketry Head",
+            image: "team/rashid.jpg",
+            links: ["https://www.linkedin.com/in/mohammedrashid2002","https://www.instagram.com/rashid_5525_rabbani/"]
+        },
         {
             name: "Charitha M N",
             position: "Rocketry Head",
