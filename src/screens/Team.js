@@ -23,7 +23,7 @@ function Team() {
         },
         {
             name: "Avinash Reddy C",
-            position: "Web, Content, Graphics",
+            position: "Web Developer",
             image: "team/avinash.jpeg",
             links: ["mailto:avihanvaisri@gmail.com", "https://www.linkedin.com/in/avinash-reddy-c-857057235/", "https://github.com/avinash84319"]
         },
