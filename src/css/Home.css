@@ -1,191 +1,154 @@
 .home-video {
-    width: 100%;
+    width: 120vw;
+    position: absolute;
     left: 50%;
     top: 65%;
     transform: translate(-50%, -50%);
-    position: absolute;
     z-index: -1;
-    filter: brightness(10%);
+    filter: brightness(5%);
 }
 
-.home-content {
-    text-align: center;
+.hero {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-bottom: 5vh;
+}
+
+.club-logo {
+    width: 500px;
     height: 500px;
-}
-
-.home-content-h1 {
-    margin-top: 300px;
-    margin-bottom: 0px;
-    font-size: 100px;
-    font-weight: 900;
-    font-family: "montserrat", Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: rgb(236, 195, 11);
-}
-
-.home-content-p {
     margin-top: 0px;
-    font-size: 20px;
-    font-weight: 500;
-    font-family: "montserrat", Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 0px;
+}
+
+@media screen and (max-width: 768px) {
+    .club-logo {
+        width: 350px;
+        height: 350px;
+    }
+    
+}
+
+/* .home-content-h1 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 8rem;
+    font-weight: 900;
+    color: rgb(236, 195, 11);
+} */
+
+.hero-p {
+    margin-top: 4vh;
+    font-size: 1.5rem;
+    font-style: italic;
     color: rgb(226, 171, 52);
 }
 
-.home-content-btn:hover {
-    background: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-}
-
-.home-content2 {
-    margin-top: 500px;
-}
-
-.home-content-nav {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    color: aliceblue;
-    background-color: transparent;
-    position: fixed;
-    top: 50%;
-    left: 95%;
-}
-
-.home-content-nav-span {
-    font-size: 40px;
-    font-weight: 500;
-    font-family: "montserrat", Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: #c45252;
-}
-
-.home-content-nav-span:hover {
-    color: #ffffff;
-}
-
-.home-content-nav-spana {
-    font-size: 40px;
-    font-weight: 500;
-    font-family: "montserrat", Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: #ffffff;
-}
 
 .home-main {
+    padding: 10vh 15vw;
     background-color: rgb(0, 0, 0);
-    height: 1000px;
-    margin-top: 10px;
-    margin-right: 90px;
-    display: block;
+    color: white;
+}
+.home-main > h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 2vh;
+    text-align: center;
+    color: rgb(226, 171, 52);
 }
 
-.home-main-aim-h1 {
-    margin-top: 60px;
-    margin-left: 100px;
-    font-size: 50px;
-    font-weight: 500;
-    font-family: "montserrat", Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: rgb(236, 195, 11);
+.home-main > p {
+    font-size: 1.3rem;
+    margin-bottom: 2vh;
+    text-align: justify;
 }
 
-.home-main-aim-p {
-    max-width: 1200px;
-    margin-top: 0px;
-    margin-left: 100px;
-    font-size: 20px;
-    font-weight: 500;
-    font-family: "montserrat", Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: rgb(255, 255, 255);
+.section-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 14vh;
+    margin-bottom: 14vh;
+    max-height: 30vh;
+    padding: 3vh 3vw;
 }
 
-.home-b1 {
-    display: none;
+.float-image {
+    max-width: 30vw;
 }
 
-.home-b2 {
-    display: none;
+.float-image > img {
+    width: 100%;
+    height: auto;
+    max-width: 50vw;
+    max-height: 50vh;
+    box-shadow: 0px 0px 5px 0px #000000;
 }
 
-/* mobile section */
-@media only screen and (max-device-width: 480px) {
+@media screen and (max-width: 500px) {
+    .section-images {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 4vh;
+        margin-bottom: 4vh;
+        max-height: fit-content;
+    }
+    .float-image > img {
+        width: 80vw;
+        max-width: 80vw;
+    }
+}
 
-    /* css for mobile section */
+.tilt-back-right {
+    transform: rotate(-5deg);
+    transition: ease-in-out 0.5s;
+}
+
+.tilt-back-left {
+    transform: rotate(5deg);
+    transition: ease-in-out 0.5s;
+}
+.tilt-back-right:hover, .tilt-back-left:hover {
+    transform: rotate(0deg);
+}
+
+.polaroid-border {
+    border: #ffffff 10px solid;
+    border-bottom: #ffffff 25px solid;
+}
+
+@media screen and (max-width: 768px) {
+    .home-main {
+        padding: 10vh 7vw;
+    }
+    .home-main > h1 {
+        text-align: left;
+        font-size: 2rem;
+    }
+    .home-main > p {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 450px){
     .home-video {
-        width: 1000px;
-        top: 420px;
-        position: absolute;
-        z-index: -1;
+        width: 150%;
+        top:50%;
+        height: 100%;
     }
+}
 
-    .home-content {
-        text-align: center;
-        height:500px;
-    }
-
-    .home-content-nav {
-        display: none;
-    }
-
-    .home-content-h1 {
-        margin-top: 200px;
-        font-size: 50px;
-    }
-
-    .home-b1 {
-        position: absolute;
-        top: 400px;
-        left: 25%;
-        display:flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .home-b2 {
-        margin-top:400px ;
-        display:flex;
-        margin-left:30px;
-    }
-
-    .home-b1-btn {
-        display: block;
-        margin-top: 50px;
-        padding:20px;
-        border: 2px solid rgb(255, 255, 255);
-        background: none;
-        color: rgb(255, 255, 255);
-        font-size: 20px;
-        font-family: 'Montserrat', Courier, monospace;
-    }
-
-    .home-b2-btn {
-        display: block;
-        margin-top: 350px;
-        padding:20px;
-        border: 2px solid rgb(255, 255, 255);
-        background: none;
-        color: rgb(255, 255, 255);
-        font-size: 20px;
-        font-family: 'Montserrat', Courier, monospace;
-    }
-
-    .home-b1-btn:hover {
-        background: rgb(255, 255, 255);
-        color: rgb(0, 0, 0);
-    }
-
-    .home-main-aim-p {
-        max-width: 350px;
-        margin-top: 0px;
-        margin-left: 30px;
-        font-size: 17px;
-        font-weight: 500;
-        font-family: "montserrat", Cochin, Georgia, Times, 'Times New Roman', serif;
-        color: rgb(255, 255, 255);
-    }
-
-    .home-main-aim-h1 {
-        margin-top: 60px;
-        margin-left: 30px;
-        font-size: 40px;
-        font-weight: 500;
-        font-family: "montserrat", Cochin, Georgia, Times, 'Times New Roman', serif;
-       color:rgb(236, 195, 11);
+@media screen and (max-width: 350px){
+    .home-video {
+        width: 400%;
+        top:25%;
+        height: 100%;
     }
 }

@@ -1,6 +1,6 @@
 .navbar{
     background:rgb(0, 0, 0);
-    height: 100px;
+    height: 10vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -23,8 +23,7 @@
     font-weight: 39;
     font-size: 30px;
 }
-.menu{
-}
+
 .menu-list{
     padding-left: 0px;
     list-style: none;
@@ -69,19 +68,13 @@
     }
 }
 
-@media only screen and (max-width: 550px) {
-    .menu-list-item-a, .menu-list-item-a1{
-        font-size: 8px;
-    }
-}
-
 /* mobile section */
-@media only screen and (max-device-width: 480px){
+@media only screen and (max-width: 580px){
     /* css for mobile section */
     .navbar{
         height: 70px;
         display:flex;
-        background:rgb(22, 22, 22);
+        background:rgb(2, 2, 2);
         position:sticky;
         top: 0px;
         z-index:2;

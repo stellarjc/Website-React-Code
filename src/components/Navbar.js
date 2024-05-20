@@ -27,12 +27,12 @@ function Navbar() {
         <div className="menu">
             <ul className="menu-list">
                 <li className="menu-list-item"><Link className="menu-list-item-a1" to='/'>StellarJC</Link></li>
-                <li className="menu-list-item"><Link className="menu-list-item-a" to='/cos'>Cosmology</Link></li>
-                <li className="menu-list-item"><Link className="menu-list-item-a" to='/roc'>Rocketry</Link></li>
-                <li className="menu-list-item"><Link className="menu-list-item-a" to='/spt'>Space Tech</Link></li>
-                <li className="menu-list-item"><Link className="menu-list-item-a" to='/spn'>Space Talk</Link></li>
-                <li className="menu-list-item"><Link className="menu-list-item-a" to='/tem'>The Team</Link></li>
-                <li className="menu-list-item"><Link className="menu-list-item-a" to='/con'>Contact Us</Link></li>
+                <li className="menu-list-item"><Link className="menu-list-item-a" to='/cosmology'>Cosmology</Link></li>
+                <li className="menu-list-item"><Link className="menu-list-item-a" to='/roccketry'>Rocketry</Link></li>
+                <li className="menu-list-item"><Link className="menu-list-item-a" to='/technology'>Space Tech</Link></li>
+                <li className="menu-list-item"><Link className="menu-list-item-a" to='/blog'>Space Talk</Link></li>
+                <li className="menu-list-item"><Link className="menu-list-item-a" to='/team'>The Team</Link></li>
+                <li className="menu-list-item"><Link className="menu-list-item-a" to='/contact'>Contact Us</Link></li>
             </ul>
         </div>
         <div className="dropdown">
@@ -42,12 +42,12 @@ function Navbar() {
         style={{"text-align":"right","background-color":"black"}}
         >
             <p><Link className="menu-list-item-a" to='/' onClick={()=>{setOpen(false);}}>Home</Link></p>
-            <p><Link className="menu-list-item-a" to='/cos' onClick={()=>{setOpen(false);}}>Cosmology</Link></p>
-            <p><Link className="menu-list-item-a" to='/roc' onClick={()=>{setOpen(false);}}>Rocketry</Link></p>
-            <p><Link className="menu-list-item-a" to='/spt' onClick={()=>{setOpen(false);}}>Space Tech</Link></p>
-            <p><Link className="menu-list-item-a" to='/spn' onClick={()=>{setOpen(false);}}>Space Talk</Link></p>
-            <p><Link className="menu-list-item-a" to='/tem' onClick={()=>{setOpen(false);}}>The Team</Link></p>
-            <p><Link className="menu-list-item-a" to='/con' onClick={()=>{setOpen(false);}}>Contact Us</Link></p>
+            <p><Link className="menu-list-item-a" to='/cosmology' onClick={()=>{setOpen(false);}}>Cosmology</Link></p>
+            <p><Link className="menu-list-item-a" to='/rocketry' onClick={()=>{setOpen(false);}}>Rocketry</Link></p>
+            <p><Link className="menu-list-item-a" to='/technology' onClick={()=>{setOpen(false);}}>Space Tech</Link></p>
+            <p><Link className="menu-list-item-a" to='/blog' onClick={()=>{setOpen(false);}}>Space Talk</Link></p>
+            <p><Link className="menu-list-item-a" to='/team' onClick={()=>{setOpen(false);}}>The Team</Link></p>
+            <p><Link className="menu-list-item-a" to='/contact' onClick={()=>{setOpen(false);}}>Contact Us</Link></p>
         </Drawer>
         </div>
     </div>
