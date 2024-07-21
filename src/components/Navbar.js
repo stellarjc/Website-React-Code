@@ -28,7 +28,7 @@ function Navbar() {
             <ul className="menu-list">
                 <li className="menu-list-item"><Link className="menu-list-item-a1" to='/'>StellarJC</Link></li>
                 <li className="menu-list-item"><Link className="menu-list-item-a" to='/cosmology'>Cosmology</Link></li>
-                <li className="menu-list-item"><Link className="menu-list-item-a" to='/roccketry'>Rocketry</Link></li>
+                <li className="menu-list-item"><Link className="menu-list-item-a" to='/rocketry'>Rocketry</Link></li>
                 <li className="menu-list-item"><Link className="menu-list-item-a" to='/technology'>Space Tech</Link></li>
                 <li className="menu-list-item"><Link className="menu-list-item-a" to='/blog'>Space Talk</Link></li>
                 <li className="menu-list-item"><Link className="menu-list-item-a" to='/team'>The Team</Link></li>

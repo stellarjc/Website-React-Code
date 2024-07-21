@@ -5,12 +5,12 @@
 .con-main-form{
     display: block;
     margin-top: 100px;
-    margin-left:100px;
+    /* margin-left:100px; */
     border: #ffffff solid 2px;
 }
 .con-form-h1{
     color: #ffffff;
-    margin-left: 50px;
+    /* margin-left: 50px; */
     font-size: 20px;
 }
 .con-form-inp{
