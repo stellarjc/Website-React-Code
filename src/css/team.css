@@ -1,63 +1,83 @@
 .main{
-    height:5000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+@media screen and (max-width: 768px){
+    .main{
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
 }
 .team-img{
-    position: absolute;
+    position: fixed;
+    top: 0;
+    left: 0;
     z-index: -4;
-    height: inherit;
-    opacity: 60%;
-  -webkit-filter: blur(8px);
-  filter: blur(8px);
+    height: 100%;
+    width: 100%;
+    filter: blur(2px);
 }
 .team{
-    /* background-image:url("../../public/teamimg.jpg"); */
-    /* background-color: #000000; */
     display:flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 .team-head{
-    /* background-color: #ffffff00; */
     display:flex;
     justify-content: center;
     align-items: center;
     color: #ffffff;
     font-size: 30px;
     font-weight: 700;
-    font-family: 'Montserrat', Courier, monospace;
 }
 .team-1{
+    width: 100%;
     display:flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    max-width:1100px;
+    justify-content: center;
+    align-items: center;
 }
 .team-1-h1{
     /* color: rgb(0, 0, 0); */
     font-size: 50px;
     font-weight: 700;
-    font-family: 'Montserrat', Courier, monospace;
 }
 .card{
-    margin: 20px;
-    min-width: 500px;
-    max-width: 500px;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(20px, 1fr));
+    margin: 10px;
     background-color: #ffffff;
+    padding: 10px;
     border-radius: 10px;
-    box-shadow: 1px 1px 10px 10px rgba(0, 0, 0, 0.089);
+}
+
+.card-img-div {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .card-img{
-    height:140px;
-    min-width: 140px;
+    height:175px;
+    min-width: 175px;
     border-radius: 10px 10px 10px 10px;
-    margin: 30px;
+    margin: 10px;
 }
 .card-content{
     margin: 5px;
 }
 .card-content-h1{
-    margin-top: 30px;
     margin-bottom: 0px;
     font-size: 30px;
     font-weight: 700;

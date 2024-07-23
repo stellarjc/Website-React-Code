@@ -7,8 +7,12 @@ function Rocketry() {
         <div className="roc-tit">
           <h1 className='roc-tit-h1'>ROCKETRY</h1>
           <button className="roc-tit-btn" onClick={()=>{
-        if(window.location.href===`${window.location.protocol+'//'+window.location.host}/roc`){
-          window.scrollTo(0,800);
+        if(window.location.href===`${window.location.protocol+'//'+window.location.host}/rocketry`){
+          window.scrollTo({
+            top: 800,
+            left: 0,
+            behavior: "smooth",
+          });
       }}}>EXPLORE MORE</button>
         </div>
         <div className='roc-content'>
@@ -27,10 +31,10 @@ Learn about the principles of Rocket Science, Rocket Design and Propulsion syste
               <li> Our club provides a platform 
               for intellectual discourse, where members can exchange ideas, challenge conventional wisdom, and <span className='gradient-underline-bluee'>explore the 
               mysteries that still elude us. </span></li></ul>
-            <img className='roc-content2-img' src='roc2.jpg' />
+            <img className='roc-content2-img' alt="rocket in the background" src='roc2.jpg' />
       </div>
       <div className='roc-content3'>
-      <img className='roc-content3-img' src='roc3.png' />
+      <img className='roc-content3-img' alt="rocket" src='roc3.png' />
         <ul className='roc-content3-p'>
               <li>Participate in <span className='gradient-underline-light-greenn'>interactive workshops and demonstrations</span> where you can delve into 
             various aspects of astronomy and space science.</li>

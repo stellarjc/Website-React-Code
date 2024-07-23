@@ -7,8 +7,12 @@ function Cosmology() {
       <h1 className='cos-tit-h1'>Cosmology</h1>
       <p className='cos-tit-p'>Wander into the stars</p>
       <button className="cos-tit-btn" onClick={()=>{
-        if(window.location.href===`${window.location.protocol+'//'+window.location.host}/cos`){
-          window.scrollTo(0,800);
+        if(window.location.href===`${window.location.protocol+'//'+window.location.host}/cosmology`){
+          window.scrollTo({
+            top: 800,
+            left: 0,
+            behavior: "smooth",
+          });
       }}}>Explore More</button>
     </div>
      <div className='cos-content'>

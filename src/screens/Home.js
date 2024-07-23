@@ -1,6 +1,5 @@
 import React from 'react';
 import '../css/Home.css';
-import { Link } from 'react-router-dom';
 import logo from '../assets/logo.png';
 import mentors from "../assets/mentors.jpeg";
 import team from "../assets/team.jpeg";
@@ -22,9 +21,9 @@ function Home() {
                 <p>We are passionate stargazers, scientists, and explorers who come together to foster a community of knowledge, curiosity, and appreciation for the vast 
                 wonders of the universe.Embark on a captivating odyssey through the cosmos with Stellar JC. Together, let us venture into
                  the unknown, unravel the secrets of the universe, and foster a deeper appreciation for the vastness and beauty of space.</p>
-                <div class="section-images">
-                    <div class="float-image tilt-back-right"><img class="polaroid-border" alt="The team" src={team}/></div>
-                    <div class="float-image tilt-back-right"><img class="polaroid-border" alt="Our mentors" src={mentors}/></div>
+                <div className="section-images">
+                    <div className="float-image tilt-back-right"><img className="polaroid-border" alt="The team" src={team}/></div>
+                    <div className="float-image tilt-back-right"><img className="polaroid-border" alt="Our mentors" src={mentors}/></div>
                 </div>
                 <h1>Our Aim 🎯</h1>
                 <p>If you are fascinated by the wonders of space, eager to explore the

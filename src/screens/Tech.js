@@ -7,8 +7,12 @@ function Tech() {
         <div className="tec-tit">
           <h1 className='tec-tit-h1'>SPACE-TECH</h1>
           <button className="tec-tit-btn" onClick={()=>{
-        if(window.location.href===`${window.location.protocol+'//'+window.location.host}/spt`){
-          window.scrollTo(0,795);
+        if(window.location.href===`${window.location.protocol+'//'+window.location.host}/technology`){
+          window.scrollTo({
+            top: 800,
+            left: 0,
+            behavior: "smooth",
+          });
       }}}>EXPLORE MORE</button>
         </div>
         <div className='tec-content'>
@@ -21,10 +25,10 @@ function Tech() {
              We offer opportunities for members to engage in satellite making projects. From designing and assembling miniature
               satellites to programming their functions, these projects allow our members to gain practical experience in 
               aerospace engineering and contribute to the advancement of space technology.</p>
-            <img className='tec-content2-img' src='tec2.jpg' />
+            <img className='tec-content2-img' alt="a satellite" src='tec2.jpg' />
       </div>
       <div className='tec-content3'>
-      <img className='tec-content3-img' src='tec3.jpg' />
+      <img className='tec-content3-img' alt="a satellite" src='tec3.jpg' />
             <p className='tec-content3-p'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
             incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
             nisi ut aliquip ex ea commodo consequat.<br /> Duis aute irure dolor in reprehenderit in voluptate velit esse 

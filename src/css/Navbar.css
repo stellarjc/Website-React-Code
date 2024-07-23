@@ -31,6 +31,11 @@
     display: flex;
     align-items: center;
 }
+
+.nav-active {
+    color: #c45252;
+    cursor: pointer;
+}
 .menu-list-item-a{
     text-decoration: none;
     color:#ffffff;

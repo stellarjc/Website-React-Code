@@ -5,7 +5,6 @@ import { Drawer } from 'antd';
 import MenuIcon from '@mui/icons-material/Menu';
 function Navbar() {
 
-
     const [open, setOpen] = useState(false);
 
     const showDrawer = () => {
@@ -26,28 +25,28 @@ function Navbar() {
         </div>
         <div className="menu">
             <ul className="menu-list">
-                <li className="menu-list-item"><Link className="menu-list-item-a1" to='/'>StellarJC</Link></li>
-                <li className="menu-list-item"><Link className="menu-list-item-a" to='/cosmology'>Cosmology</Link></li>
-                <li className="menu-list-item"><Link className="menu-list-item-a" to='/rocketry'>Rocketry</Link></li>
-                <li className="menu-list-item"><Link className="menu-list-item-a" to='/technology'>Space Tech</Link></li>
-                <li className="menu-list-item"><Link className="menu-list-item-a" to='/blog'>Space Talk</Link></li>
-                <li className="menu-list-item"><Link className="menu-list-item-a" to='/team'>The Team</Link></li>
-                <li className="menu-list-item"><Link className="menu-list-item-a" to='/contact'>Contact Us</Link></li>
+                <li><Link className="menu-list-item-a1" onClick={() => window.scrollTo({top:0,left:0,behavior:"instant"})} to='/'>StellarJC</Link></li>
+                <li><Link className="menu-list-item-a" onClick={() => window.scrollTo({top:0,left:0,behavior:"instant"})} to='/cosmology'>Cosmology</Link></li>
+                <li><Link className="menu-list-item-a" onClick={() => window.scrollTo({top:0,left:0,behavior:"instant"})} to='/rocketry'>Rocketry</Link></li>
+                <li><Link className="menu-list-item-a" onClick={() => window.scrollTo({top:0,left:0,behavior:"instant"})} to='/technology'>Space Tech</Link></li>
+                <li><Link className="menu-list-item-a" onClick={() => window.scrollTo({top:0,left:0,behavior:"instant"})} to='/blog'>Space Talk</Link></li>
+                <li><Link className="menu-list-item-a" onClick={() => window.scrollTo({top:0,left:0,behavior:"instant"})} to='/team'>The Team</Link></li>
+                <li><Link className="menu-list-item-a" onClick={() => window.scrollTo({top:0,left:0,behavior:"instant"})} to='/contact'>Contact Us</Link></li>
             </ul>
         </div>
         <div className="dropdown">
         <MenuIcon color="primary" onClick={showDrawer} sx={{"marginTop":"7px"}}/>
         <Drawer placement="right" onClose={onClose} open={open} width="200px" 
-        bodyStyle={{"text-align":"right","background-color":"black"}}
-        style={{"text-align":"right","background-color":"black"}}
+        bodyStyle={{"textAlign":"right","backgroundColor":"black"}}
+        style={{"textAlign":"right","backgroundColor":"black"}}
         >
-            <p><Link className="menu-list-item-a" to='/' onClick={()=>{setOpen(false);}}>Home</Link></p>
-            <p><Link className="menu-list-item-a" to='/cosmology' onClick={()=>{setOpen(false);}}>Cosmology</Link></p>
-            <p><Link className="menu-list-item-a" to='/rocketry' onClick={()=>{setOpen(false);}}>Rocketry</Link></p>
-            <p><Link className="menu-list-item-a" to='/technology' onClick={()=>{setOpen(false);}}>Space Tech</Link></p>
-            <p><Link className="menu-list-item-a" to='/blog' onClick={()=>{setOpen(false);}}>Space Talk</Link></p>
-            <p><Link className="menu-list-item-a" to='/team' onClick={()=>{setOpen(false);}}>The Team</Link></p>
-            <p><Link className="menu-list-item-a" to='/contact' onClick={()=>{setOpen(false);}}>Contact Us</Link></p>
+            <p><Link className="menu-list-item-a" to='/' onClick={()=>{setOpen(false);window.scrollTo({top:0,left:0,behavior:"instant"})}}>Home</Link></p>
+            <p><Link className="menu-list-item-a" to='/cosmology' onClick={()=>{setOpen(false);window.scrollTo({top:0,left:0,behavior:"instant"})}}>Cosmology</Link></p>
+            <p><Link className="menu-list-item-a" to='/rocketry' onClick={()=>{setOpen(false);window.scrollTo({top:0,left:0,behavior:"instant"})}}>Rocketry</Link></p>
+            <p><Link className="menu-list-item-a" to='/technology' onClick={()=>{setOpen(false);window.scrollTo({top:0,left:0,behavior:"instant"})}}>Space Tech</Link></p>
+            <p><Link className="menu-list-item-a" to='/blog' onClick={()=>{setOpen(false);window.scrollTo({top:0,left:0,behavior:"instant"})}}>Space Talk</Link></p>
+            <p><Link className="menu-list-item-a" to='/team' onClick={()=>{setOpen(false);window.scrollTo({top:0,left:0,behavior:"instant"})}}>The Team</Link></p>
+            <p><Link className="menu-list-item-a" to='/contact' onClick={()=>{setOpen(false);window.scrollTo({top:0,left:0,behavior:"instant"})}}>Contact Us</Link></p>
         </Drawer>
         </div>
     </div>
