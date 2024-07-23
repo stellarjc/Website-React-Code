@@ -20,7 +20,10 @@ const Read = () => {
             </div>
         </div>
     : 
-    <h1 className='read-head'> ☄️404 Blog not found 💫</h1>
+    <>
+        <h1 className='not-found'> ☄️404 Blog not found 💫</h1>
+        <h2 className='not-found'> The blog you were looking for was lost in the cosmos.</h2>
+    </>
     )
 }
 

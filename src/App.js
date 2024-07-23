@@ -10,6 +10,7 @@ import News from './screens/News';
 import Navbar from './components/Navbar';
 import Contact from './screens/Contact';
 import Read from './screens/Read';
+import NotFound from './screens/NotFound';
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
           <Route path="/team" element={<Team />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/blogpost/:id" element={<Read />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       {/* <Footer /> */}
       </BrowserRouter>
