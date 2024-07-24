@@ -60,7 +60,7 @@ export const content = [
         name: "Nida Fathima",
         position: "Content writer",
         image: "team/nida.jpg",
-        links: ["https://www.linkedin.com/in/syedanidafathima","https://instagram.com/nid.aaa_?igshid=NGExMmI2YTkyZg=="]
+        links: ["https://www.linkedin.com/in/syedanidafathima24/","https://instagram.com/nid.aaa_?igshid=NGExMmI2YTkyZg=="]
     },
     {
         name: "Guruprasad",
